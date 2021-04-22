@@ -1,5 +1,5 @@
-#!/bin/bash
-# install opencv
+#!/usr/bin/zsh
+# install opencv with cuda11（成功）, conda base python-opencv (失败)
 set -e
 
 ROOTDIR=${ZZROOT:-$HOME/app}
@@ -33,16 +33,19 @@ fi
 
 mkdir -p src/$NAME1
 mkdir -p src/$NAME2
-tar xf downloads/$FILE1 -C src/$NAME1 --strip-components 1
-tar xf downloads/$FILE2 -C src/$NAME2 --strip-components 1
+tar -zxf downloads/$FILE1 -C src/$NAME1 --strip-components 1
+tar -zxf downloads/$FILE2 -C src/$NAME2 --strip-components 1
 
 cd src/$NAME1
 mkdir -p build
 cd build
 
 export PKG_CONFIG_PATH="$ROOTDIR"/lib/pkgconfig:$PKG_CONFIG_PATH
+echo "CUDA11, GCC9.1.0, c++14, cmake 3.20.1"
+echo "CUDA10.2, GCC4.8.5, c++11, cmake 3.19.1"
 
 cmake \
+    -DCMAKE_CXX_STANDARD=14 \
     -DBUILD_EXAMPLES=OFF \
     -DWITH_QT=OFF \
     -DCUDA_GENERATION=Auto \
@@ -76,14 +79,19 @@ cmake \
     -DBUILD_opencv_dnns_easily_fooled=OFF \
     -DBUILD_JAVA=OFF \
     -DBUILD_opencv_python2=OFF \
-    -DBUILD_NEW_PYTHON_SUPPORT=ON \
-    -DBUILD_opencv_python3=OFF \
-    -DHAVE_opencv_python3=OFF \
-    -DPYTHON_DEFAULT_EXECUTABLE="$(which python)" \
+    -DBUILD_opencv_python3=ON \
+    -DHAVE_opencv_python3=ON \
+    -DPYTHON3_EXECUTABLE=$(python -c "import sys; print(sys.executable)") \
+    -DPYTHON3_NUMPY_INCLUDE_DIRS=$(python -c "import numpy; print (numpy.get_include())") \
+    -DPYTHON3_INCLUDE_DIR=/home/zhangwenting/anaconda3/include/python3.7m \
+    -DPYTHON3_LIBRARY=/home/zhangwenting/anaconda3/lib/libpython3.so \
+    -DPYTHON3_PACKAGES_PATH=/home/zhangwenting/anaconda3/lib/python3.7/site-packages \
     -DWITH_OPENGL=ON \
     -DWITH_VTK=OFF \
     -DFORCE_VTK=OFF \
     -DWITH_TBB=ON \
+    -DBUILD_TBB=ON \
+    -DBUILD_TIFF=ON \
     -DWITH_GDAL=ON \
     -DCUDA_FAST_MATH=ON \
     -DWITH_CUBLAS=ON \
@@ -91,6 +99,8 @@ cmake \
     -DMKL_USE_MULTITHREAD=ON \
     -DOPENCV_ENABLE_NONFREE=ON \
     -DWITH_CUDA=ON \
+    -DCUDNN_INCLUDE_DIR=/home/share/cudnn-8.0-v5.1/include \
+    -DCUDNN_LIBRARY=/home/share/cudnn-8.0-v5.1/lib64 \
     -DNVCC_FLAGS_EXTRA="--default-stream per-thread" \
     -DWITH_NVCUVID=OFF \
     -DBUILD_opencv_cudacodec=OFF \

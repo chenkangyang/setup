@@ -1,0 +1,933 @@
+opencv will be installed in /home/chenkangyang/kychen/zzapp
+downloads/opencv.tar.gz exist
+downloads/opencv_contrib.tar.gz exist
+-- Detected processor: x86_64
+-- Looking for ccache - found (/home/chenkangyang/kychen/zzapp/bin/ccache)
+-- Dispatch optimization AVX512_SKX is not available, skipped
+-- Found ZLIB: /lib64/libz.so (found suitable version "1.2.7", minimum required is "1.2.3") 
+-- Could NOT find OpenJPEG (minimal suitable version: 2.0, recommended version >= 2.3.1)
+-- Found ZLIB: /lib64/libz.so (found version "1.2.7") 
+-- Found OpenEXR: /usr/lib64/libIlmImf.so
+-- Found TBB (env): /lib64/libtbb.so
+-- IPPICV: Download: ippicv_2020_lnx_intel64_20191018_general.tgz
+-- Try 1 failed
+-- 
+=======================================================================
+  Couldn't download files from the Internet.
+  Please check the Internet access on this host.
+=======================================================================
+
+-- Could NOT find CUDNN: Found unsuitable version "..", but required is at least "7.5" (found /lib64/libcudnn.so)
+-- CUDA detected: 10.2
+-- CUDA NVCC target flags: -gencode;arch=compute_61,code=sm_61;-D_FORCE_INLINES
+-- Could not find OpenBLAS include. Turning OpenBLAS_FOUND off
+-- Could not find OpenBLAS lib. Turning OpenBLAS_FOUND off
+-- Could NOT find Atlas (missing: Atlas_CBLAS_INCLUDE_DIR Atlas_CLAPACK_INCLUDE_DIR Atlas_CBLAS_LIBRARY Atlas_BLAS_LIBRARY Atlas_LAPACK_LIBRARY) 
+-- Could NOT find BLAS (missing: BLAS_LIBRARIES) 
+-- Could NOT find LAPACK (missing: LAPACK_LIBRARIES) 
+    Reason given by package: LAPACK could not be found because dependency BLAS could not be found.
+
+-- ADE: Download: v0.1.1f.zip
+-- Try 1 failed
+-- 
+=======================================================================
+  Couldn't download files from the Internet.
+  Please check the Internet access on this host.
+=======================================================================
+
+-- OpenCV Python: during development append to PYTHONPATH: /home/chenkangyang/kychen/zzapp/src/opencv/build/python_loader
+-- Checking for module 'gstreamer-base-1.0'
+--   No package 'gstreamer-base-1.0' found
+-- Checking for module 'gstreamer-app-1.0'
+--   No package 'gstreamer-app-1.0' found
+-- Checking for module 'gstreamer-riff-1.0'
+--   No package 'gstreamer-riff-1.0' found
+-- Checking for module 'gstreamer-pbutils-1.0'
+--   No package 'gstreamer-pbutils-1.0' found
+-- Caffe:   NO
+-- Protobuf:   NO
+-- Glog:   NO
+-- freetype2:   YES (ver 20.0.14)
+-- harfbuzz:    YES (ver 1.7.5)
+-- HDF5 C compiler wrapper is unable to compile a minimal HDF5 program.
+-- Could NOT find HDF5 (missing: HDF5_LIBRARIES HDF5_INCLUDE_DIRS) (found version "")
+-- Module opencv_ovis disabled because OGRE3D was not found
+-- No preference for use of exported gflags CMake configuration set, and no hints for include/library directories provided. Defaulting to preferring an installed/exported gflags CMake configuration if available.
+-- Failed to find installed gflags CMake configuration, searching for gflags build directories exported with CMake.
+-- Failed to find gflags - Failed to find an installed/exported CMake configuration for gflags, will perform search for installed gflags components.
+-- Failed to find gflags - Could not find gflags include directory, set GFLAGS_INCLUDE_DIR to directory containing gflags/gflags.h
+-- Failed to find glog - Could not find glog include directory, set GLOG_INCLUDE_DIR to directory containing glog/logging.h
+-- Module opencv_sfm disabled because the following dependencies are not found: Glog/Gflags
+-- Checking for module 'tesseract'
+--   No package 'tesseract' found
+-- Tesseract:   NO
+-- Allocator metrics storage type: 'long long'
+-- 
+-- General configuration for OpenCV 4.3.0 =====================================
+--   Version control:               unknown
+-- 
+--   Extra modules:
+--     Location (extra):            /home/chenkangyang/kychen/zzapp/src/opencv_contrib/modules
+--     Version control (extra):     unknown
+-- 
+--   Platform:
+--     Timestamp:                   2021-01-24T08:26:03Z
+--     Host:                        Linux 3.10.0-1127.el7.x86_64 x86_64
+--     CMake:                       3.19.1
+--     CMake generator:             Unix Makefiles
+--     CMake build tool:            /usr/bin/gmake
+--     Configuration:               RELEASE
+-- 
+--   CPU/HW features:
+--     Baseline:                    SSE SSE2 SSE3
+--       requested:                 SSE3
+--     Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX AVX2
+--       requested:                 SSE4_1 SSE4_2 AVX FP16 AVX2 AVX512_SKX
+--       SSE4_1 (13 files):         + SSSE3 SSE4_1
+--       SSE4_2 (1 files):          + SSSE3 SSE4_1 POPCNT SSE4_2
+--       FP16 (0 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX
+--       AVX (3 files):             + SSSE3 SSE4_1 POPCNT SSE4_2 AVX
+--       AVX2 (26 files):           + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2
+-- 
+--   C/C++:
+--     Built as dynamic libs?:      YES
+--     C++ standard:                11
+--     C++ Compiler:                /usr/bin/c++  (ver 4.8.5)
+--     C++ flags (Release):         -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
+--     C++ flags (Debug):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+--     C Compiler:                  /usr/bin/cc
+--     C flags (Release):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -O3 -DNDEBUG  -DNDEBUG
+--     C flags (Debug):             -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
+--     Linker flags (Release):      -Wl,--gc-sections -Wl,--as-needed  
+--     Linker flags (Debug):        -Wl,--gc-sections -Wl,--as-needed  
+--     ccache:                      YES
+--     Precompiled headers:         NO
+--     Extra dependencies:          m pthread cudart_static dl rt nppc nppial nppicc nppicom nppidei nppif nppig nppim nppist nppisu nppitc npps cublas cufft -L/usr/local/cuda-10.2/lib64 -L/lib64
+--     3rdparty dependencies:
+-- 
+--   OpenCV modules:
+--     To be built:                 alphamat calib3d core cudaarithm cudabgsegm cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev features2d flann fuzzy hfs highgui img_hash imgcodecs imgproc intensity_transform line_descriptor ml objdetect optflow phase_unwrapping photo plot quality rapid shape stitching structured_light superres surface_matching video videoio videostab xfeatures2d ximgproc xobjdetect xphoto
+--     Disabled:                    aruco bgsegm bioinspired ccalib cudacodec datasets dnn dnn_objdetect dnn_superres dpm face freetype python2 reg rgbd saliency stereo text tracking world
+--     Disabled by dependency:      -
+--     Unavailable:                 cnn_3dobj cvv gapi hdf java js matlab ovis python3 sfm ts viz
+--     Applications:                apps
+--     Documentation:               NO
+--     Non-free algorithms:         YES
+-- 
+--   GUI: 
+--     GTK+:                        YES (ver 3.22.30)
+--       GThread :                  YES (ver 2.56.1)
+--       GtkGlExt:                  NO
+--     OpenGL support:              NO
+-- 
+--   Media I/O: 
+--     ZLib:                        /lib64/libz.so (ver 1.2.7)
+--     JPEG:                        /lib64/libjpeg.so (ver 62)
+--     WEBP:                        /lib64/libwebp.so (ver encoder: 0x0201)
+--     PNG:                         /lib64/libpng.so (ver 1.5.13)
+--     TIFF:                        /lib64/libtiff.so (ver 42 / 4.0.3)
+--     JPEG 2000:                   /lib64/libjasper.so (ver 1.900.1)
+--     OpenEXR:                     /usr/lib64/libImath.so /usr/lib64/libIlmImf.so /usr/lib64/libIex.so /usr/lib64/libHalf.so /usr/lib64/libIlmThread.so (ver 1.7.1)
+--     GDAL:                        NO
+--     HDR:                         YES
+--     SUNRASTER:                   YES
+--     PXM:                         YES
+--     PFM:                         YES
+-- 
+--   Video I/O:
+--     DC1394:                      YES (2.2.2)
+--     FFMPEG:                      YES
+--       avcodec:                   YES (56.60.100)
+--       avformat:                  YES (56.40.101)
+--       avutil:                    YES (54.31.100)
+--       swscale:                   YES (3.1.101)
+--       avresample:                YES (2.1.0)
+--     GStreamer:                   NO
+--     v4l/v4l2:                    YES (linux/videodev2.h)
+--     Xine:                        NO
+-- 
+--   Parallel framework:            TBB (ver 4.1 interface 6103)
+-- 
+--   Trace:                         YES (with Intel ITT)
+-- 
+--   Other third-party libraries:
+--     Lapack:                      NO
+--     Eigen:                       YES (ver 3.3.4)
+--     Custom HAL:                  NO
+--     Protobuf:                    build (3.5.1)
+-- 
+--   NVIDIA CUDA:                   YES (ver 10.2, CUFFT CUBLAS FAST_MATH)
+--     NVIDIA GPU arch:             61
+--     NVIDIA PTX archs:
+-- 
+--   cuDNN:                         NO
+-- 
+--   OpenCL:                        YES (no extra features)
+--     Include path:                /home/chenkangyang/kychen/zzapp/src/opencv/3rdparty/include/opencl/1.2
+--     Link libraries:              Dynamic load
+-- 
+--   Python (for build):            /home/chenkangyang/anaconda3/bin/python
+-- 
+--   Install to:                    /home/chenkangyang/kychen/zzapp
+-- -----------------------------------------------------------------
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chenkangyang/kychen/zzapp/src/opencv/build
+[  0%] Built target gen-pkgconfig
+[  0%] Built target opencv_videoio_plugins
+[  0%] Built target ittnotify
+[  1%] Built target quirc
+[  1%] Built target opencv_cudev
+[ 10%] Built target libprotobuf
+[ 23%] Built target opencv_core
+[ 23%] Built target opencv_intensity_transform
+[ 23%] Built target opencv_version
+[ 24%] Built target opencv_flann
+[ 26%] Built target opencv_ml
+[ 27%] Built target opencv_surface_matching
+[ 38%] Built target opencv_imgproc
+[ 42%] Built target opencv_cudaarithm
+[ 42%] Built target opencv_plot
+[ 42%] Built target opencv_phase_unwrapping
+[ 43%] Built target opencv_quality
+[ 44%] Built target opencv_img_hash
+[ 44%] Built target opencv_fuzzy
+[ 45%] Built target opencv_hfs
+[ 46%] Built target opencv_alphamat
+[ 47%] Built target opencv_cudawarping
+[ 49%] Built target opencv_imgcodecs
+[ 52%] Built target opencv_features2d
+[ 54%] Built target opencv_videoio
+[ 55%] Built target opencv_line_descriptor
+[ 59%] Built target opencv_cudafilters
+[ 60%] Built target opencv_highgui
+[ 64%] Built target opencv_calib3d
+[ 64%] Built target opencv_annotation
+[ 64%] Built target opencv_visualisation
+[ 64%] Built target opencv_rapid
+[ 64%] Built target opencv_structured_light
+[ 65%] Built target opencv_interactive-calibration
+[ 65%] Linking CXX shared library ../../lib/libopencv_cudafeatures2d.so
+[ 66%] Built target opencv_objdetect
+[ 67%] Built target opencv_shape
+[ 69%] Built target opencv_video
+[ 71%] Built target opencv_cudastereo
+[ 72%] Built target opencv_xobjdetect
+[ 73%] Built target opencv_cudabgsegm
+[ 74%] Built target opencv_waldboost_detector
+[ 74%] Linking CXX shared library ../../lib/libopencv_cudaimgproc.so
+[ 78%] Built target opencv_ximgproc
+[ 82%] Built target opencv_xfeatures2d
+[ 84%] Built target opencv_optflow
+[ 85%] Built target opencv_cudafeatures2d
+[ 89%] Built target opencv_cudaimgproc
+[ 89%] Linking CXX shared library ../../lib/libopencv_cudalegacy.so
+[ 89%] Linking CXX shared library ../../lib/libopencv_photo.so
+[ 91%] Built target opencv_photo
+[ 94%] Built target opencv_cudalegacy
+[ 94%] Linking CXX shared library ../../lib/libopencv_xphoto.so
+[ 94%] Linking CXX shared library ../../lib/libopencv_cudaobjdetect.so
+[ 94%] Linking CXX shared library ../../lib/libopencv_cudaoptflow.so
+[ 94%] Linking CXX shared library ../../lib/libopencv_stitching.so
+[ 95%] Built target opencv_xphoto
+[ 95%] Built target opencv_cudaobjdetect
+[ 97%] Built target opencv_stitching
+[ 98%] Built target opencv_cudaoptflow
+[ 98%] Linking CXX shared library ../../lib/libopencv_superres.so
+[ 98%] Linking CXX shared library ../../lib/libopencv_videostab.so
+[ 99%] Built target opencv_superres
+[100%] Built target opencv_videostab
+[  0%] Built target gen-pkgconfig
+[  9%] Built target libprotobuf
+[ 10%] Built target quirc
+[ 10%] Built target ittnotify
+[ 10%] Built target opencv_videoio_plugins
+[ 10%] Built target opencv_cudev
+[ 23%] Built target opencv_core
+[ 27%] Built target opencv_cudaarithm
+[ 28%] Built target opencv_flann
+[ 39%] Built target opencv_imgproc
+[ 39%] Built target opencv_intensity_transform
+[ 41%] Built target opencv_ml
+[ 41%] Built target opencv_phase_unwrapping
+[ 41%] Built target opencv_plot
+[ 42%] Built target opencv_quality
+[ 43%] Built target opencv_surface_matching
+[ 44%] Built target opencv_alphamat
+[ 48%] Built target opencv_cudafilters
+[ 52%] Built target opencv_cudaimgproc
+[ 53%] Built target opencv_cudawarping
+[ 56%] Built target opencv_features2d
+[ 56%] Built target opencv_fuzzy
+[ 57%] Built target opencv_hfs
+[ 58%] Built target opencv_img_hash
+[ 60%] Built target opencv_imgcodecs
+[ 61%] Built target opencv_line_descriptor
+[ 63%] Built target opencv_photo
+[ 65%] Built target opencv_videoio
+[ 66%] Built target opencv_xphoto
+[ 70%] Built target opencv_calib3d
+[ 71%] Built target opencv_cudafeatures2d
+[ 73%] Built target opencv_cudastereo
+[ 74%] Built target opencv_highgui
+[ 75%] Built target opencv_objdetect
+[ 75%] Built target opencv_rapid
+[ 76%] Built target opencv_shape
+[ 76%] Built target opencv_structured_light
+[ 78%] Built target opencv_video
+[ 82%] Built target opencv_xfeatures2d
+[ 86%] Built target opencv_ximgproc
+[ 87%] Built target opencv_xobjdetect
+[ 88%] Built target opencv_waldboost_detector
+[ 89%] Built target opencv_cudabgsegm
+[ 92%] Built target opencv_cudalegacy
+[ 92%] Built target opencv_cudaobjdetect
+[ 94%] Built target opencv_optflow
+[ 96%] Built target opencv_stitching
+[ 97%] Built target opencv_cudaoptflow
+[ 98%] Built target opencv_superres
+[ 99%] Built target opencv_videostab
+[ 99%] Built target opencv_annotation
+[ 99%] Built target opencv_visualisation
+[100%] Built target opencv_interactive-calibration
+[100%] Built target opencv_version
+Install the project...
+-- Install configuration: "RELEASE"
+-- Installing: /home/chenkangyang/kychen/zzapp/share/licenses/opencv4/opencl-headers-LICENSE.txt
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cvconfig.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/opencv_modules.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/pkgconfig/opencv4.pc
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/cmake/opencv4/OpenCVModules.cmake
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/cmake/opencv4/OpenCVModules-release.cmake
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/cmake/opencv4/OpenCVConfig-version.cmake
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/cmake/opencv4/OpenCVConfig.cmake
+-- Installing: /home/chenkangyang/kychen/zzapp/bin/setup_vars_opencv4.sh
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/valgrind.supp
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/valgrind_3rdparty.supp
+-- Installing: /home/chenkangyang/kychen/zzapp/share/licenses/opencv4/protobuf-LICENSE
+-- Installing: /home/chenkangyang/kychen/zzapp/share/licenses/opencv4/protobuf-README.md
+-- Installing: /home/chenkangyang/kychen/zzapp/share/licenses/opencv4/quirc-LICENSE
+-- Installing: /home/chenkangyang/kychen/zzapp/share/licenses/opencv4/ittnotify-LICENSE.BSD
+-- Installing: /home/chenkangyang/kychen/zzapp/share/licenses/opencv4/ittnotify-LICENSE.GPL
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/opencv.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudev.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudev.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_cudev.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudev.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/block/block.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/block/detail/reduce.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/block/detail/reduce_key_val.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/block/dynamic_smem.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/block/reduce.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/block/scan.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/block/vec_distance.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/common.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/expr/binary_func.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/expr/binary_op.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/expr/color.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/expr/deriv.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/expr/expr.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/expr/per_element_func.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/expr/reduction.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/expr/unary_func.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/expr/unary_op.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/expr/warping.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/functional/color_cvt.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/functional/detail/color_cvt.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/functional/functional.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/functional/tuple_adapter.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/copy.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/detail/copy.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/detail/histogram.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/detail/integral.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/detail/minmaxloc.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/detail/pyr_down.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/detail/pyr_up.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/detail/reduce.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/detail/reduce_to_column.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/detail/reduce_to_row.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/detail/split_merge.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/detail/transform.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/detail/transpose.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/histogram.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/integral.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/pyramids.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/reduce.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/reduce_to_vec.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/split_merge.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/transform.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/grid/transpose.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/constant.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/deriv.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/detail/gpumat.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/extrapolation.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/glob.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/gpumat.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/interpolation.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/lut.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/mask.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/remap.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/resize.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/texture.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/traits.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/transform.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/warping.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/ptr2d/zip.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/util/atomic.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/util/detail/tuple.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/util/detail/type_traits.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/util/limits.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/util/saturate_cast.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/util/simd_functions.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/util/tuple.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/util/type_traits.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/util/vec_math.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/util/vec_traits.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/warp/detail/reduce.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/warp/detail/reduce_key_val.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/warp/reduce.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/warp/scan.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/warp/shuffle.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/warp/warp.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev.hpp
+-- Up-to-date: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudev/common.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_core.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_core.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_core.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_core.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/ocl_defs.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/opencl_info.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/opencl_svm.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_clamdblas.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_clamdfft.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_core.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_core_wrappers.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_gl.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_gl_wrappers.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_clamdblas.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_clamdfft.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_core.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_core_wrappers.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_gl.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_gl_wrappers.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_svm_20.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_svm_definitions.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_svm_hsa_extension.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/block.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/border_interpolate.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/color.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/common.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/datamov_utils.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/dynamic_smem.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/emulation.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/filters.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/funcattrib.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/functional.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/limits.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/reduce.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/saturate_cast.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/scan.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/simd_functions.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/transform.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/type_traits.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/utility.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/vec_distance.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/vec_math.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/vec_traits.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/warp.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/warp_reduce.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/warp_shuffle.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/detail/color_detail.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/detail/reduce.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/detail/reduce_key_val.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/detail/transform_detail.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/detail/type_traits_detail.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda/detail/vec_distance_detail.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/affine.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/async.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/base.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/bindings_utils.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/bufferpool.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/check.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/core.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/core_c.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda.inl.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda_stream_accessor.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cuda_types.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cv_cpu_helper.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cvdef.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cvstd.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cvstd.inl.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/directx.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/eigen.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/fast_math.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/hal/hal.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/hal/interface.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/hal/intrin.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/hal/intrin_avx.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/hal/intrin_avx512.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/hal/intrin_cpp.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/hal/intrin_forward.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/hal/intrin_msa.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/hal/intrin_neon.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/hal/intrin_sse.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/hal/intrin_sse_em.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/hal/intrin_vsx.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/hal/intrin_wasm.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/hal/msa_macros.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/hal/simd_utils.impl.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/mat.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/mat.inl.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/matx.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/neon_utils.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/ocl.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/ocl_genbase.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/opengl.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/operations.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/optim.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/ovx.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/persistence.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/saturate.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/simd_intrinsics.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/softfloat.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/sse_utils.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/traits.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/types.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/types_c.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/utility.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/utils/allocator_stats.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/utils/allocator_stats.impl.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/utils/filesystem.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/utils/instrumentation.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/utils/logger.defines.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/utils/logger.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/utils/logtag.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/utils/tls.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/utils/trace.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/va_intel.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/version.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/vsx_utils.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/detail/async_promise.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/core/detail/exception_ptr.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/share/licenses/opencv4/SoftFloat-COPYING.txt
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaarithm.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaarithm.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaarithm.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaarithm.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudaarithm.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_flann.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_flann.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_flann.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_flann.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/all_indices.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/allocator.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/any.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/autotuned_index.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/composite_index.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/config.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/defines.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/dist.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/dummy.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/dynamic_bitset.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/flann.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/flann_base.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/general.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/ground_truth.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/hdf5.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/heap.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/hierarchical_clustering_index.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/index_testing.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/kdtree_index.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/kdtree_single_index.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/kmeans_index.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/linear_index.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/logger.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/lsh_index.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/lsh_table.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/matrix.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/miniflann.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/nn_index.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/object_factory.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/params.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/random.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/result_set.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/sampling.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/saving.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/simplex_downhill.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/flann/timer.h
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_imgproc.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_imgproc.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_imgproc.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_imgproc.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/imgproc.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/imgproc/hal/hal.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/imgproc/hal/interface.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/imgproc/imgproc.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/imgproc/imgproc_c.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/imgproc/types_c.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/imgproc/detail/gcgraph.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_intensity_transform.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_intensity_transform.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_intensity_transform.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_intensity_transform.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/intensity_transform.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_ml.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_ml.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_ml.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_ml.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ml.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ml/ml.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ml/ml.inl.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_phase_unwrapping.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_phase_unwrapping.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_phase_unwrapping.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_phase_unwrapping.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/phase_unwrapping.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/phase_unwrapping/histogramphaseunwrapping.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/phase_unwrapping/phase_unwrapping.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_plot.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_plot.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_plot.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_plot.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/plot.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_quality.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_quality.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_quality.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_quality.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/quality.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/quality/quality_utils.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/quality/qualitybase.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/quality/qualitybrisque.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/quality/qualitygmsd.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/quality/qualitymse.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/quality/qualitypsnr.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/quality/qualityssim.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/quality/brisque_model_live.yml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/quality/brisque_range_live.yml
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_surface_matching.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_surface_matching.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_surface_matching.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_surface_matching.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/surface_matching.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/surface_matching/icp.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/surface_matching/pose_3d.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/surface_matching/ppf_helpers.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/surface_matching/ppf_match_3d.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/surface_matching/t_hash_int.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_alphamat.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_alphamat.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_alphamat.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_alphamat.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/alphamat.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudafilters.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudafilters.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_cudafilters.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudafilters.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudafilters.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaimgproc.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaimgproc.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaimgproc.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaimgproc.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudaimgproc.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudawarping.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudawarping.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_cudawarping.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudawarping.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudawarping.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_features2d.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_features2d.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_features2d.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_features2d.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/features2d.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/features2d/features2d.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/features2d/hal/interface.h
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_fuzzy.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_fuzzy.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_fuzzy.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_fuzzy.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/fuzzy.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/fuzzy/fuzzy_F0_math.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/fuzzy/fuzzy_F1_math.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/fuzzy/fuzzy_image.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/fuzzy/types.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_hfs.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_hfs.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_hfs.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_hfs.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/hfs.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_img_hash.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_img_hash.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_img_hash.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_img_hash.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/img_hash.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/img_hash/average_hash.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/img_hash/block_mean_hash.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/img_hash/color_moment_hash.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/img_hash/img_hash_base.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/img_hash/marr_hildreth_hash.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/img_hash/phash.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/img_hash/radial_variance_hash.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_imgcodecs.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_imgcodecs.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_imgcodecs.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_imgcodecs.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/imgcodecs.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/imgcodecs/imgcodecs.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/imgcodecs/imgcodecs_c.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/imgcodecs/ios.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/imgcodecs/legacy/constants_c.h
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_line_descriptor.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_line_descriptor.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_line_descriptor.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_line_descriptor.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/line_descriptor.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/line_descriptor/descriptor.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_photo.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_photo.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_photo.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_photo.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/photo.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/photo/cuda.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/photo/legacy/constants_c.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/photo/photo.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_videoio.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_videoio.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_videoio.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_videoio.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videoio.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videoio/cap_ios.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videoio/legacy/constants_c.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videoio/registry.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videoio/videoio.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videoio/videoio_c.h
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_xphoto.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_xphoto.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_xphoto.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_xphoto.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/xphoto.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/xphoto/bm3d_image_denoising.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/xphoto/dct_image_denoising.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/xphoto/inpainting.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/xphoto/oilpainting.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/xphoto/tonemap.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/xphoto/white_balance.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_calib3d.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_calib3d.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_calib3d.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_calib3d.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/calib3d.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/calib3d/calib3d.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/calib3d/calib3d_c.h
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudafeatures2d.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudafeatures2d.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_cudafeatures2d.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudafeatures2d.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudafeatures2d.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudastereo.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudastereo.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_cudastereo.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudastereo.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudastereo.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_highgui.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_highgui.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_highgui.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_highgui.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/highgui.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/highgui/highgui.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/highgui/highgui_c.h
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_objdetect.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_objdetect.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_objdetect.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_objdetect.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/objdetect.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/objdetect/objdetect.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_rapid.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_rapid.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_rapid.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_rapid.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/rapid.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_shape.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_shape.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_shape.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_shape.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/shape.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/shape/emdL1.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/shape/hist_cost.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/shape/shape.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/shape/shape_distance.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/shape/shape_transformer.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_structured_light.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_structured_light.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_structured_light.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_structured_light.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/structured_light.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/structured_light/graycodepattern.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/structured_light/sinusoidalpattern.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/structured_light/structured_light.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_video.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_video.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_video.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_video.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/video.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/video/background_segm.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/video/legacy/constants_c.h
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/video/tracking.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/video/video.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_xfeatures2d.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_xfeatures2d.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_xfeatures2d.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_xfeatures2d.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/xfeatures2d.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/xfeatures2d/cuda.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_ximgproc.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_ximgproc.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_ximgproc.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_ximgproc.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/brightedges.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/color_match.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/deriche_filter.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/disparity_filter.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/edge_filter.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/edgeboxes.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/edgepreserving_filter.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/estimated_covariance.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/fast_hough_transform.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/fast_line_detector.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/fourier_descriptors.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/lsc.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/paillou_filter.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/peilin.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/ridgefilter.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/run_length_morphology.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/seeds.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/segmentation.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/slic.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/sparse_match_interpolator.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/structured_edge_detection.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/ximgproc/weighted_median_filter.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_xobjdetect.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_xobjdetect.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_xobjdetect.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_xobjdetect.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/xobjdetect.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/bin/opencv_waldboost_detector
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/bin/opencv_waldboost_detector" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudabgsegm.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudabgsegm.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_cudabgsegm.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudabgsegm.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudabgsegm.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudalegacy.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudalegacy.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_cudalegacy.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudalegacy.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudalegacy.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudalegacy/NCV.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudalegacy/NCVBroxOpticalFlow.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudalegacy/NCVHaarObjectDetection.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudalegacy/NCVPyramid.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudalegacy/NPP_staging.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaobjdetect.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaobjdetect.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaobjdetect.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaobjdetect.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudaobjdetect.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_optflow.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_optflow.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_optflow.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_optflow.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/optflow.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/optflow/motempl.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/optflow/pcaflow.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/optflow/rlofflow.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/optflow/sparse_matching_gpc.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_stitching.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_stitching.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_stitching.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_stitching.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/stitching.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/stitching/warpers.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/stitching/detail/autocalib.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/stitching/detail/blenders.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/stitching/detail/camera.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/stitching/detail/matchers.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/stitching/detail/seam_finders.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/stitching/detail/timelapsers.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/stitching/detail/util.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/stitching/detail/util_inl.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/stitching/detail/warpers.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaoptflow.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaoptflow.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaoptflow.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_cudaoptflow.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/cudaoptflow.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_superres.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_superres.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_superres.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_superres.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/superres.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/superres/optical_flow.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_videostab.so.4.3.0
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_videostab.so.4.3
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/lib64/libopencv_videostab.so.4.3.0" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/lib64/libopencv_videostab.so
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videostab.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videostab/deblurring.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videostab/fast_marching.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videostab/fast_marching_inl.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videostab/frame_source.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videostab/global_motion.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videostab/inpainting.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videostab/log.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videostab/motion_core.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videostab/motion_stabilizing.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videostab/optical_flow.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videostab/outlier_rejection.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videostab/ring_buffer.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videostab/stabilizer.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/include/opencv4/opencv2/videostab/wobble_suppression.hpp
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_eye.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_eye_tree_eyeglasses.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_frontalcatface.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_frontalcatface_extended.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_frontalface_alt.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_frontalface_alt2.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_frontalface_alt_tree.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_frontalface_default.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_fullbody.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_lefteye_2splits.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_licence_plate_rus_16stages.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_lowerbody.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_profileface.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_righteye_2splits.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_russian_plate_number.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_smile.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/haarcascades/haarcascade_upperbody.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/lbpcascades/lbpcascade_frontalcatface.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/lbpcascades/lbpcascade_frontalface.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/lbpcascades/lbpcascade_frontalface_improved.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/lbpcascades/lbpcascade_profileface.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/share/opencv4/lbpcascades/lbpcascade_silverware.xml
+-- Installing: /home/chenkangyang/kychen/zzapp/bin/opencv_annotation
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/bin/opencv_annotation" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/bin/opencv_visualisation
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/bin/opencv_visualisation" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/bin/opencv_interactive-calibration
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/bin/opencv_interactive-calibration" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+-- Installing: /home/chenkangyang/kychen/zzapp/bin/opencv_version
+-- Set runtime path of "/home/chenkangyang/kychen/zzapp/bin/opencv_version" to "/home/chenkangyang/kychen/zzapp/lib64:/usr/local/cuda-10.2/lib64"
+opencv installed on /home/chenkangyang/kychen/zzapp
+add following line to .zshrc
+export OpenCV_DIR=/home/chenkangyang/kychen/zzapp

@@ -25,7 +25,6 @@ tar xf downloads/$FILE -C src/$NAME --strip-components 1
 
 cd src/$NAME
 
-mkdir -p $ROOTDIR/bin
 cp neofetch $ROOTDIR/bin
 
 echo $NAME installed on "$ROOTDIR"

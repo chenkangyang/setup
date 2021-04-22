@@ -1,0 +1,7 @@
+#use_cache "/home/chenkangyang/kychen/zzapp/src/opencv/.cache"
+#do_unpack "ippicv_2020_lnx_intel64_20191018_general.tgz" "7421de0095c7a39162ae13a6098782f9" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_lnx_intel64_20191018_general.tgz" "/home/chenkangyang/kychen/zzapp/src/opencv/build/3rdparty/ippicv"
+#check_md5 "/home/chenkangyang/kychen/zzapp/src/opencv/.cache/ippicv/7421de0095c7a39162ae13a6098782f9-ippicv_2020_lnx_intel64_20191018_general.tgz"
+#mismatch_md5 "/home/chenkangyang/kychen/zzapp/src/opencv/.cache/ippicv/7421de0095c7a39162ae13a6098782f9-ippicv_2020_lnx_intel64_20191018_general.tgz" "d41d8cd98f00b204e9800998ecf8427e"
+#delete "/home/chenkangyang/kychen/zzapp/src/opencv/.cache/ippicv/7421de0095c7a39162ae13a6098782f9-ippicv_2020_lnx_intel64_20191018_general.tgz"
+#cmake_download "/home/chenkangyang/kychen/zzapp/src/opencv/.cache/ippicv/7421de0095c7a39162ae13a6098782f9-ippicv_2020_lnx_intel64_20191018_general.tgz" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/a56b6ac6f030c312b2dce17430eef13aed9af274/ippicv/ippicv_2020_lnx_intel64_20191018_general.tgz"
+#try 1

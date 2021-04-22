@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/zsh
 # install libtiff
 set -e
 
@@ -6,7 +6,7 @@ ROOTDIR=${ZZROOT:-$HOME/app}
 NAME="libtiff"
 TYPE=".tar.gz"
 FILE="$NAME$TYPE"
-DOWNLOADURL="http://download.osgeo.org/libtiff/tiff-4.1.0.tar.gz"
+DOWNLOADURL="http://download.osgeo.org/libtiff/tiff-3.9.7.tar.gz"
 echo $NAME will be installed in "$ROOTDIR"
 
 mkdir -p "$ROOTDIR/downloads"
@@ -28,7 +28,7 @@ cd src/$NAME
 mkdir -p build
 cd build
 
-cmake -DCMAKE_INSTALL_PREFIX="$ROOTDIR" -G Ninja ..
+cmake2 -DCMAKE_INSTALL_PREFIX="$ROOTDIR" -G Ninja ..
 ninja
 ninja install
 

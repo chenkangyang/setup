@@ -1,0 +1,2045 @@
+opencv will be installed in /home/zhangwenting/zzapp
+downloads/opencv.tar.gz exist
+downloads/opencv_contrib.tar.gz exist
+CUDA11, GCC9.1.0, c++14, cmake 3.20.1
+CUDA10.2, GCC4.8.5, c++11, cmake 3.19.1
+-- Detected processor: x86_64
+-- Looking for ccache - found (/home/zhangwenting/zzapp/bin/ccache)
+-- Found ZLIB: /lib64/libz.so (found suitable version "1.2.7", minimum required is "1.2.3") 
+-- Looking for assert.h
+-- Looking for assert.h - found
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for fcntl.h
+-- Looking for fcntl.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for io.h
+-- Looking for io.h - not found
+-- Looking for limits.h
+-- Looking for limits.h - found
+-- Looking for memory.h
+-- Looking for memory.h - found
+-- Looking for search.h
+-- Looking for search.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for string.h
+-- Looking for string.h - found
+-- Looking for strings.h
+-- Looking for strings.h - found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Performing Test C_HAS_inline
+-- Performing Test C_HAS_inline - Success
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of signed short
+-- Check size of signed short - done
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Check size of signed int
+-- Check size of signed int - done
+-- Check size of unsigned int
+-- Check size of unsigned int - done
+-- Check size of signed long
+-- Check size of signed long - done
+-- Check size of unsigned long
+-- Check size of unsigned long - done
+-- Check size of signed long long
+-- Check size of signed long long - done
+-- Check size of unsigned long long
+-- Check size of unsigned long long - done
+-- Check size of unsigned char *
+-- Check size of unsigned char * - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ptrdiff_t
+-- Check size of ptrdiff_t - done
+-- Check size of INT8
+-- Check size of INT8 - failed
+-- Check size of INT16
+-- Check size of INT16 - failed
+-- Check size of INT32
+-- Check size of INT32 - failed
+-- Looking for floor
+-- Looking for floor - found
+-- Looking for pow
+-- Looking for pow - found
+-- Looking for sqrt
+-- Looking for sqrt - found
+-- Looking for isascii
+-- Looking for isascii - found
+-- Looking for memset
+-- Looking for memset - found
+-- Looking for mmap
+-- Looking for mmap - found
+-- Looking for getopt
+-- Looking for getopt - found
+-- Looking for memmove
+-- Looking for memmove - found
+-- Looking for setmode
+-- Looking for setmode - not found
+-- Looking for strcasecmp
+-- Looking for strcasecmp - found
+-- Looking for strchr
+-- Looking for strchr - found
+-- Looking for strrchr
+-- Looking for strrchr - found
+-- Looking for strstr
+-- Looking for strstr - found
+-- Looking for strtol
+-- Looking for strtol - found
+-- Looking for strtol
+-- Looking for strtol - found
+-- Looking for strtoull
+-- Looking for strtoull - found
+-- Looking for lfind
+-- Looking for lfind - found
+-- Performing Test HAVE_SNPRINTF
+-- Performing Test HAVE_SNPRINTF - Success
+-- Performing Test HAVE_C_WNO_UNUSED_BUT_SET_VARIABLE
+-- Performing Test HAVE_C_WNO_UNUSED_BUT_SET_VARIABLE - Success
+-- Performing Test HAVE_C_WNO_CAST_ALIGN
+-- Performing Test HAVE_C_WNO_CAST_ALIGN - Success
+-- Performing Test HAVE_C_WNO_POINTER_TO_INT_CAST
+-- Performing Test HAVE_C_WNO_POINTER_TO_INT_CAST - Success
+-- Performing Test HAVE_C_WNO_INT_TO_POINTER_CAST
+-- Performing Test HAVE_C_WNO_INT_TO_POINTER_CAST - Success
+-- Performing Test HAVE_C_WNO_MISLEADING_INDENTATION
+-- Performing Test HAVE_C_WNO_MISLEADING_INDENTATION - Success
+-- Could NOT find OpenJPEG (minimal suitable version: 2.0, recommended version >= 2.3.1)
+-- Could NOT find Jasper (missing: JASPER_LIBRARIES JASPER_INCLUDE_DIR) 
+-- Found ZLIB: /lib64/libz.so (found version "1.2.7") 
+-- found Intel IPP (ICV version): 2020.0.0 [2020.0.0 Gold]
+-- at: /home/zhangwenting/zzapp/src/opencv/build/3rdparty/ippicv/ippicv_lnx/icv
+-- found Intel IPP Integration Wrappers sources: 2020.0.0
+-- at: /home/zhangwenting/zzapp/src/opencv/build/3rdparty/ippicv/ippicv_lnx/iw
+-- Could NOT find CUDNN: Found unsuitable version "..5", but required is at least "7.5" (found /home/share/cudnn-8.0-v5.1/lib64)
+-- CUDA detected: 11.1
+-- CUDA NVCC target flags: -gencode;arch=compute_61,code=sm_61;-gencode;arch=compute_52,code=sm_52;-D_FORCE_INLINES
+-- Could not find OpenBLAS include. Turning OpenBLAS_FOUND off
+-- Could not find OpenBLAS lib. Turning OpenBLAS_FOUND off
+-- Could NOT find Atlas (missing: Atlas_CBLAS_INCLUDE_DIR Atlas_CLAPACK_INCLUDE_DIR Atlas_CBLAS_LIBRARY Atlas_BLAS_LIBRARY Atlas_LAPACK_LIBRARY) 
+-- Could NOT find BLAS (missing: BLAS_LIBRARIES) 
+-- Could NOT find LAPACK (missing: LAPACK_LIBRARIES) 
+    Reason given by package: LAPACK could not be found because dependency BLAS could not be found.
+
+-- OpenCV Python: during development append to PYTHONPATH: /home/zhangwenting/zzapp/src/opencv/build/python_loader
+-- Checking for module 'libdc1394-2'
+--   No package 'libdc1394-2' found
+-- Module opencv_alphamat disabled because the following dependencies are not found: Eigen
+-- Caffe:   NO
+-- Protobuf:   NO
+-- Glog:   NO
+-- freetype2:   YES (ver 16.0.10)
+-- harfbuzz:    YES (ver 0.9.36)
+-- HDF5 C compiler wrapper is unable to compile a minimal HDF5 program.
+-- Could NOT find HDF5 (missing: HDF5_LIBRARIES HDF5_INCLUDE_DIRS) (found version "")
+-- Module opencv_ovis disabled because OGRE3D was not found
+-- No preference for use of exported gflags CMake configuration set, and no hints for include/library directories provided. Defaulting to preferring an installed/exported gflags CMake configuration if available.
+-- Found installed version of gflags: /home/zhangwenting/anaconda3/envs/torch11/lib/cmake/gflags
+-- Detected gflags version: 2.2.2
+-- Failed to find glog - Could not find glog include directory, set GLOG_INCLUDE_DIR to directory containing glog/logging.h
+-- Module opencv_sfm disabled because the following dependencies are not found: Eigen Glog/Gflags
+-- Checking for module 'tesseract'
+--   No package 'tesseract' found
+-- Tesseract:   NO
+-- Allocator metrics storage type: 'long long'
+-- 
+-- General configuration for OpenCV 4.3.0 =====================================
+--   Version control:               unknown
+-- 
+--   Extra modules:
+--     Location (extra):            /home/zhangwenting/zzapp/src/opencv_contrib/modules
+--     Version control (extra):     unknown
+-- 
+--   Platform:
+--     Timestamp:                   2021-04-21T04:42:21Z
+--     Host:                        Linux 3.10.0-327.el7.x86_64 x86_64
+--     CMake:                       3.20.1
+--     CMake generator:             Unix Makefiles
+--     CMake build tool:            /usr/bin/gmake
+--     Configuration:               RELEASE
+-- 
+--   CPU/HW features:
+--     Baseline:                    SSE SSE2 SSE3
+--       requested:                 SSE3
+--     Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX AVX2 AVX512_SKX
+--       requested:                 SSE4_1 SSE4_2 AVX FP16 AVX2 AVX512_SKX
+--       SSE4_1 (14 files):         + SSSE3 SSE4_1
+--       SSE4_2 (1 files):          + SSSE3 SSE4_1 POPCNT SSE4_2
+--       FP16 (0 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX
+--       AVX (3 files):             + SSSE3 SSE4_1 POPCNT SSE4_2 AVX
+--       AVX2 (27 files):           + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2
+--       AVX512_SKX (2 files):      + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2 AVX_512F AVX512_COMMON AVX512_SKX
+-- 
+--   C/C++:
+--     Built as dynamic libs?:      YES
+--     C++ standard:                14
+--     C++ Compiler:                /home/zhangwenting/zzapp/bin/c++  (ver 9.1.0)
+--     C++ flags (Release):         -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
+--     C++ flags (Debug):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+--     C Compiler:                  /home/zhangwenting/zzapp/bin/gcc
+--     C flags (Release):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -O3 -DNDEBUG  -DNDEBUG
+--     C flags (Debug):             -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
+--     Linker flags (Release):      -Wl,--exclude-libs,libippicv.a -Wl,--exclude-libs,libippiw.a   -Wl,--gc-sections -Wl,--as-needed  
+--     Linker flags (Debug):        -Wl,--exclude-libs,libippicv.a -Wl,--exclude-libs,libippiw.a   -Wl,--gc-sections -Wl,--as-needed  
+--     ccache:                      YES
+--     Precompiled headers:         NO
+--     Extra dependencies:          m pthread cudart_static dl rt nppc nppial nppicc nppidei nppif nppig nppim nppist nppisu nppitc npps cublas cufft -L/usr/local/cuda/lib64 -L/lib64
+--     3rdparty dependencies:
+-- 
+--   OpenCV modules:
+--     To be built:                 calib3d core cudaarithm cudabgsegm cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev features2d flann fuzzy gapi hfs highgui img_hash imgcodecs imgproc intensity_transform line_descriptor ml objdetect optflow phase_unwrapping photo plot quality rapid shape stitching structured_light superres surface_matching video videoio videostab xfeatures2d ximgproc xobjdetect xphoto
+--     Disabled:                    aruco bgsegm bioinspired ccalib cudacodec datasets dnn dnn_objdetect dnn_superres dpm face freetype python2 reg rgbd saliency stereo text tracking world
+--     Disabled by dependency:      -
+--     Unavailable:                 alphamat cnn_3dobj cvv hdf java js matlab ovis python3 sfm ts viz
+--     Applications:                apps
+--     Documentation:               NO
+--     Non-free algorithms:         YES
+-- 
+--   GUI: 
+--     GTK+:                        YES (ver 3.14.13)
+--       GThread :                  YES (ver 2.42.2)
+--       GtkGlExt:                  NO
+--     OpenGL support:              NO
+-- 
+--   Media I/O: 
+--     ZLib:                        /lib64/libz.so (ver 1.2.7)
+--     JPEG:                        /lib64/libjpeg.so (ver 90)
+--     WEBP:                        build (ver encoder: 0x020f)
+--     PNG:                         /lib64/libpng.so (ver 1.5.13)
+--     TIFF:                        build (ver 42 - 4.0.10)
+--     JPEG 2000:                   build Jasper (ver 1.900.1)
+--     OpenEXR:                     build (ver 2.3.0)
+--     GDAL:                        NO
+--     HDR:                         YES
+--     SUNRASTER:                   YES
+--     PXM:                         YES
+--     PFM:                         YES
+-- 
+--   Video I/O:
+--     DC1394:                      NO
+--     FFMPEG:                      YES
+--       avcodec:                   YES (56.60.100)
+--       avformat:                  YES (56.40.101)
+--       avutil:                    YES (54.31.100)
+--       swscale:                   YES (3.1.101)
+--       avresample:                YES (2.1.0)
+--     GStreamer:                   YES (1.4.5)
+--     v4l/v4l2:                    YES (linux/videodev2.h)
+--     Xine:                        NO
+-- 
+--   Parallel framework:            TBB (ver 4.1 interface 6103)
+-- 
+--   Trace:                         YES (with Intel ITT)
+-- 
+--   Other third-party libraries:
+--     Intel IPP:                   2020.0.0 Gold [2020.0.0]
+--            at:                   /home/zhangwenting/zzapp/src/opencv/build/3rdparty/ippicv/ippicv_lnx/icv
+--     Intel IPP IW:                sources (2020.0.0)
+--               at:                /home/zhangwenting/zzapp/src/opencv/build/3rdparty/ippicv/ippicv_lnx/iw
+--     Lapack:                      NO
+--     Eigen:                       NO
+--     Custom HAL:                  NO
+--     Protobuf:                    build (3.5.1)
+-- 
+--   NVIDIA CUDA:                   YES (ver 11.1, CUFFT CUBLAS FAST_MATH)
+--     NVIDIA GPU arch:             61 52
+--     NVIDIA PTX archs:
+-- 
+--   cuDNN:                         NO
+-- 
+--   OpenCL:                        YES (no extra features)
+--     Include path:                /home/zhangwenting/zzapp/src/opencv/3rdparty/include/opencl/1.2
+--     Link libraries:              Dynamic load
+-- 
+--   Python 3:
+--     Interpreter:                 /home/zhangwenting/anaconda3/envs/torch11/bin/python (ver 3.7.9)
+--     Libraries:                   NO
+--     numpy:                       /home/zhangwenting/anaconda3/envs/torch11/lib/python3.7/site-packages/numpy/core/include (ver 1.19.1)
+--     install path:                -
+-- 
+--   Python (for build):            /home/zhangwenting/anaconda3/bin/python
+-- 
+--   Install to:                    /home/zhangwenting/zzapp
+-- -----------------------------------------------------------------
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zhangwenting/zzapp/src/opencv/build
+Consolidate compiler generated dependencies of target quirc
+Consolidate compiler generated dependencies of target ittnotify
+[  0%] Built target gen-pkgconfig
+[  0%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_aux.c.o
+[  0%] Built target opencv_videoio_plugins
+[  0%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_close.c.o
+[  0%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_color.c.o
+[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_compress.c.o
+[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_dir.c.o
+[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_dirinfo.c.o
+Consolidate compiler generated dependencies of target ippiw
+[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_codec.c.o
+[  1%] Built target ittnotify
+[  1%] Built target quirc
+[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_dumpmode.c.o
+[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_dirread.c.o
+[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_extension.c.o
+[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_error.c.o
+[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_fax3.c.o
+[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_dirwrite.c.o
+[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_getimage.c.o
+[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_fax3sm.c.o
+[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_flush.c.o
+[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_jbig.c.o
+Consolidate compiler generated dependencies of target libjasper
+[  2%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_jpeg_12.c.o
+[  2%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_jpeg.c.o
+[  2%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_luv.c.o
+[  4%] Built target ippiw
+[  4%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_lzma.c.o
+[  4%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_lzw.c.o
+[  4%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_next.c.o
+[  4%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_ojpeg.c.o
+Consolidate compiler generated dependencies of target ade
+[  4%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_open.c.o
+[  4%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_packbits.c.o
+Consolidate compiler generated dependencies of target libwebp
+[  7%] Built target libjasper
+[  7%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_pixarlog.c.o
+[  9%] Built target ade
+Consolidate compiler generated dependencies of target tbb
+Consolidate compiler generated dependencies of target opencv_cudev
+[ 18%] Built target libwebp
+[ 18%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_predict.c.o
+[ 18%] Building CXX object modules/cudev/CMakeFiles/opencv_cudev.dir/src/stub.cpp.o
+[ 21%] Built target tbb
+[ 21%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_print.c.o
+Consolidate compiler generated dependencies of target IlmImf
+Consolidate compiler generated dependencies of target libprotobuf
+[ 21%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_read.c.o
+[ 22%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_strip.c.o
+[ 22%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_swab.c.o
+[ 22%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_thunder.c.o
+[ 22%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_tile.c.o
+[ 22%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_version.c.o
+[ 22%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_warning.c.o
+[ 22%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_webp.c.o
+[ 22%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_write.c.o
+[ 22%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_zip.c.o
+[ 28%] Built target libprotobuf
+[ 28%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_zstd.c.o
+[ 28%] Building CXX object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_stream.cxx.o
+[ 29%] Linking CXX shared library ../../lib/libopencv_cudev.so
+[ 37%] Built target IlmImf
+[ 37%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_unix.c.o
+[ 37%] Built target opencv_cudev
+[ 37%] Building NVCC (Device) object modules/core/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_gpu_mat.cu.o
+[ 38%] Linking CXX static library ../lib/liblibtiff.a
+[ 38%] Built target libtiff
+Consolidate compiler generated dependencies of target opencv_core
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/arithm.dispatch.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/async.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/bindings_utils.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/batch_distance.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/buffer_area.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/check.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/channels.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.o
+[ 38%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert.dispatch.cpp.o
+[ 39%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.o
+[ 39%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert_c.cpp.o
+[ 39%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert_scale.dispatch.cpp.o
+[ 39%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.o
+[ 39%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.o
+[ 39%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/count_non_zero.dispatch.cpp.o
+[ 39%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.o
+[ 39%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.o
+[ 39%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.o
+[ 39%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.o
+[ 39%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.o
+[ 39%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/logger.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lut.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.o
+[ 40%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.o
+[ 41%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matmul.dispatch.cpp.o
+[ 41%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.o
+[ 41%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_c.cpp.o
+[ 41%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.o
+[ 41%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_expressions.cpp.o
+[ 41%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_iterator.cpp.o
+[ 41%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_operations.cpp.o
+[ 41%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_sparse.cpp.o
+[ 41%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_wrap.cpp.o
+[ 41%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/mean.dispatch.cpp.o
+[ 41%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/merge.dispatch.cpp.o
+[ 41%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/minmax.cpp.o
+[ 41%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/norm.cpp.o
+[ 42%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.o
+[ 42%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.o
+[ 42%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.o
+[ 42%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.o
+[ 42%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.o
+[ 42%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.o
+[ 42%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.o
+[ 42%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.o
+[ 42%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel_impl.cpp.o
+[ 42%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.o
+[ 42%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.o
+[ 42%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence_json.cpp.o
+[ 42%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence_types.cpp.o
+[ 43%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence_xml.cpp.o
+[ 43%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence_yml.cpp.o
+[ 43%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.o
+[ 43%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.o
+[ 43%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/split.dispatch.cpp.o
+[ 43%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.o
+[ 43%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/stat_c.cpp.o
+[ 43%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/sum.dispatch.cpp.o
+[ 43%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.o
+[ 43%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.o
+[ 43%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.o
+[ 43%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.o
+[ 44%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.o
+[ 44%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.o
+[ 44%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/utils/datafile.cpp.o
+[ 44%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/utils/filesystem.cpp.o
+[ 44%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/utils/logtagconfigparser.cpp.o
+[ 44%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/utils/logtagmanager.cpp.o
+[ 44%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/utils/samples.cpp.o
+[ 44%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.o
+[ 44%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/arithm.sse4_1.cpp.o
+[ 44%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.o
+[ 44%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/matmul.sse4_1.cpp.o
+[ 44%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.o
+[ 44%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.o
+[ 45%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.o
+[ 45%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.o
+[ 45%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/arithm.avx2.cpp.o
+[ 45%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/convert.avx2.cpp.o
+[ 45%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/convert_scale.avx2.cpp.o
+[ 45%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/count_non_zero.avx2.cpp.o
+[ 45%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/mean.avx2.cpp.o
+[ 45%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/matmul.avx2.cpp.o
+[ 45%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/merge.avx2.cpp.o
+[ 45%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/split.avx2.cpp.o
+[ 45%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/sum.avx2.cpp.o
+[ 45%] Building CXX object modules/core/CMakeFiles/opencv_core.dir/matmul.avx512_skx.cpp.o
+[ 45%] Linking CXX shared library ../../lib/libopencv_core.so
+[ 46%] Built target opencv_core
+Consolidate compiler generated dependencies of target opencv_intensity_transform
+Consolidate compiler generated dependencies of target opencv_version
+Consolidate compiler generated dependencies of target opencv_flann
+[ 46%] Building CXX object modules/intensity_transform/CMakeFiles/opencv_intensity_transform.dir/src/intensity_transform.cpp.o
+[ 46%] Building CXX object apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.o
+[ 46%] Building CXX object modules/flann/CMakeFiles/opencv_flann.dir/src/flann.cpp.o
+[ 46%] Building CXX object modules/flann/CMakeFiles/opencv_flann.dir/src/miniflann.cpp.o
+Consolidate compiler generated dependencies of target opencv_ml
+[ 47%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/boost.cpp.o
+[ 47%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/ann_mlp.cpp.o
+[ 47%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/em.cpp.o
+[ 47%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/data.cpp.o
+[ 47%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/gbt.cpp.o
+[ 47%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/inner_functions.cpp.o
+[ 47%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/kdtree.cpp.o
+[ 47%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/knearest.cpp.o
+[ 47%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/lr.cpp.o
+[ 47%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/nbayes.cpp.o
+[ 47%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/svm.cpp.o
+[ 47%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/rtrees.cpp.o
+[ 48%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/svmsgd.cpp.o
+[ 48%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/testset.cpp.o
+[ 48%] Building CXX object modules/ml/CMakeFiles/opencv_ml.dir/src/tree.cpp.o
+[ 48%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_transpose.cu.o
+[ 49%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_absdiff_mat.cu.o
+[ 49%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_absdiff_scalar.cu.o
+[ 49%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_add_mat.cu.o
+[ 49%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_add_scalar.cu.o
+[ 49%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_add_weighted.cu.o
+[ 49%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bitwise_mat.cu.o
+[ 49%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bitwise_scalar.cu.o
+[ 49%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_cmp_mat.cu.o
+[ 49%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_cmp_scalar.cu.o
+[ 49%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_copy_make_border.cu.o
+[ 49%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_countnonzero.cu.o
+Consolidate compiler generated dependencies of target opencv_imgproc
+[ 50%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.cpp.o
+[ 50%] Linking CXX executable ../../bin/opencv_version
+[ 51%] Linking CXX shared library ../../lib/libopencv_intensity_transform.so
+[ 51%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/accum.dispatch.cpp.o
+[ 51%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/approx.cpp.o
+[ 51%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_div_mat.cu.o
+[ 52%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_div_scalar.cu.o
+[ 52%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_integral.cu.o
+[ 52%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/bilateral_filter.dispatch.cpp.o
+[ 52%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/blend.cpp.o
+[ 52%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_lut.cu.o
+[ 52%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/box_filter.dispatch.cpp.o
+[ 52%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/canny.cpp.o
+[ 52%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_math.cu.o
+[ 52%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/clahe.cpp.o
+[ 52%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_minmax.cu.o
+[ 52%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color.cpp.o
+[ 52%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_minmax_mat.cu.o
+[ 52%] Linking CXX shared library ../../lib/libopencv_flann.so
+[ 52%] Linking CXX shared library ../../lib/libopencv_ml.so
+[ 52%] Built target opencv_version
+[ 52%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_minmaxloc.cu.o
+[ 52%] Built target opencv_intensity_transform
+[ 52%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_mul_mat.cu.o
+[ 52%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_mul_scalar.cu.o
+[ 52%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_mul_spectrums.cu.o
+[ 52%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_hsv.dispatch.cpp.o
+[ 52%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_norm.cu.o
+[ 52%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_lab.cpp.o
+[ 52%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_rgb.dispatch.cpp.o
+[ 52%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/color_yuv.dispatch.cpp.o
+[ 52%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_normalize.cu.o
+[ 52%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_polar_cart.cu.o
+[ 52%] Built target opencv_flann
+[ 52%] Built target opencv_ml
+[ 53%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/colormap.cpp.o
+[ 54%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_reduce.cu.o
+[ 54%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_split_merge.cu.o
+[ 54%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/connectedcomponents.cpp.o
+[ 54%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/contours.cpp.o
+[ 54%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/convhull.cpp.o
+Consolidate compiler generated dependencies of target opencv_surface_matching
+[ 54%] Building CXX object modules/surface_matching/CMakeFiles/opencv_surface_matching.dir/src/icp.cpp.o
+[ 54%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/corner.cpp.o
+[ 54%] Building CXX object modules/surface_matching/CMakeFiles/opencv_surface_matching.dir/src/pose_3d.cpp.o
+[ 54%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_sub_mat.cu.o
+[ 54%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_sub_scalar.cu.o
+[ 54%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/cornersubpix.cpp.o
+[ 54%] Building CXX object modules/surface_matching/CMakeFiles/opencv_surface_matching.dir/src/ppf_helpers.cpp.o
+[ 54%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/demosaicing.cpp.o
+[ 54%] Building CXX object modules/surface_matching/CMakeFiles/opencv_surface_matching.dir/src/ppf_match_3d.cpp.o
+[ 54%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/deriv.cpp.o
+[ 54%] Building CXX object modules/surface_matching/CMakeFiles/opencv_surface_matching.dir/src/t_hash_int.cpp.o
+[ 54%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/distransform.cpp.o
+[ 54%] Linking CXX shared library ../../lib/libopencv_surface_matching.so
+[ 54%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/drawing.cpp.o
+[ 54%] Built target opencv_surface_matching
+[ 54%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_sum.cu.o
+[ 54%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/emd.cpp.o
+[ 54%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/featureselect.cpp.o
+[ 54%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/filter.dispatch.cpp.o
+[ 55%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/floodfill.cpp.o
+[ 55%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/gabor.cpp.o
+[ 55%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/generalized_hough.cpp.o
+[ 55%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/geometry.cpp.o
+[ 55%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/grabcut.cpp.o
+[ 55%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hershey_fonts.cpp.o
+[ 55%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/histogram.cpp.o
+[ 55%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/hough.cpp.o
+[ 55%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.cpp.o
+[ 55%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/intersection.cpp.o
+[ 55%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/linefit.cpp.o
+[ 55%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/lsd.cpp.o
+[ 56%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/main.cpp.o
+[ 56%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/matchcontours.cpp.o
+[ 56%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/median_blur.dispatch.cpp.o
+[ 56%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/min_enclosing_triangle.cpp.o
+[ 56%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/moments.cpp.o
+[ 56%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/morph.dispatch.cpp.o
+[ 56%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/phasecorr.cpp.o
+[ 56%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/pyramids.cpp.o
+[ 56%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/resize.cpp.o
+[ 56%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/rotcalipers.cpp.o
+[ 56%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/samplers.cpp.o
+[ 56%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/segmentation.cpp.o
+[ 56%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/shapedescr.cpp.o
+[ 57%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/smooth.dispatch.cpp.o
+[ 57%] Building NVCC (Device) object modules/cudaarithm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_threshold.cu.o
+[ 57%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/spatialgradient.cpp.o
+[ 57%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/subdivision2d.cpp.o
+[ 57%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/sumpixels.dispatch.cpp.o
+[ 57%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/tables.cpp.o
+[ 57%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/templmatch.cpp.o
+[ 57%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/thresh.cpp.o
+[ 57%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/utils.cpp.o
+[ 57%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/opencl_kernels_imgproc.cpp.o
+[ 57%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.sse4_1.cpp.o
+[ 57%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/resize.sse4_1.cpp.o
+[ 57%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/accum.sse4_1.cpp.o
+[ 57%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/box_filter.sse4_1.cpp.o
+[ 58%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/filter.sse4_1.cpp.o
+[ 58%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/color_hsv.sse4_1.cpp.o
+[ 58%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/color_rgb.sse4_1.cpp.o
+[ 58%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/color_yuv.sse4_1.cpp.o
+[ 58%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/median_blur.sse4_1.cpp.o
+[ 58%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/morph.sse4_1.cpp.o
+[ 58%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/smooth.sse4_1.cpp.o
+[ 58%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/corner.avx.cpp.o
+[ 58%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/accum.avx.cpp.o
+[ 58%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/imgwarp.avx2.cpp.o
+[ 58%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/src/resize.avx2.cpp.o
+[ 58%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/accum.avx2.cpp.o
+[ 59%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/bilateral_filter.avx2.cpp.o
+[ 59%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/box_filter.avx2.cpp.o
+[ 59%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/filter.avx2.cpp.o
+[ 59%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/color_hsv.avx2.cpp.o
+[ 59%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/color_rgb.avx2.cpp.o
+[ 59%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/color_yuv.avx2.cpp.o
+[ 59%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/median_blur.avx2.cpp.o
+[ 59%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/morph.avx2.cpp.o
+[ 59%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/smooth.avx2.cpp.o
+[ 59%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/sumpixels.avx2.cpp.o
+[ 59%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc.dir/sumpixels.avx512_skx.cpp.o
+[ 59%] Linking CXX shared library ../../lib/libopencv_imgproc.so
+[ 59%] Built target opencv_imgproc
+Consolidate compiler generated dependencies of target opencv_phase_unwrapping
+Consolidate compiler generated dependencies of target opencv_plot
+[ 59%] Building NVCC (Device) object modules/hfs/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_magnitude.cu.o
+[ 59%] Building NVCC (Device) object modules/hfs/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_gslic_seg_engine_gpu.cu.o
+Consolidate compiler generated dependencies of target opencv_fuzzy
+Consolidate compiler generated dependencies of target opencv_quality
+[ 59%] Building NVCC (Device) object modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_warp.cu.o
+[ 59%] Building NVCC (Device) object modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_pyr_down.cu.o
+[ 59%] Building CXX object modules/phase_unwrapping/CMakeFiles/opencv_phase_unwrapping.dir/src/histogramphaseunwrapping.cpp.o
+[ 59%] Building NVCC (Device) object modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_pyr_up.cu.o
+[ 59%] Building NVCC (Device) object modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_remap.cu.o
+[ 59%] Building CXX object modules/plot/CMakeFiles/opencv_plot.dir/src/plot.cpp.o
+[ 59%] Building NVCC (Device) object modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_resize.cu.o
+Consolidate compiler generated dependencies of target opencv_img_hash
+[ 59%] Building CXX object modules/fuzzy/CMakeFiles/opencv_fuzzy.dir/src/fuzzy_F0_math.cpp.o
+[ 59%] Building CXX object modules/quality/CMakeFiles/opencv_quality.dir/src/qualitybrisque.cpp.o
+[ 59%] Building CXX object modules/fuzzy/CMakeFiles/opencv_fuzzy.dir/src/fuzzy_F1_math.cpp.o
+[ 59%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/average_hash.cpp.o
+Consolidate compiler generated dependencies of target opencv_imgcodecs
+Consolidate compiler generated dependencies of target opencv_features2d
+[ 59%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o
+[ 59%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast.cpp.o
+Consolidate compiler generated dependencies of target opencv_gapi
+[ 59%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gorigin.cpp.o
+[ 59%] Linking CXX shared library ../../lib/libopencv_plot.so
+[ 59%] Building CXX object modules/quality/CMakeFiles/opencv_quality.dir/src/qualitygmsd.cpp.o
+[ 59%] Linking CXX shared library ../../lib/libopencv_phase_unwrapping.so
+[ 59%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/block_mean_hash.cpp.o
+[ 59%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/color_moment_hash.cpp.o
+[ 59%] Building CXX object modules/fuzzy/CMakeFiles/opencv_fuzzy.dir/src/fuzzy_image.cpp.o
+[ 59%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.o
+[ 59%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o
+[ 59%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gmat.cpp.o
+[ 59%] Building CXX object modules/quality/CMakeFiles/opencv_quality.dir/src/qualitymse.cpp.o
+[ 59%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/img_hash_base.cpp.o
+[ 60%] Building CXX object modules/quality/CMakeFiles/opencv_quality.dir/src/qualityssim.cpp.o
+[ 60%] Built target opencv_phase_unwrapping
+[ 60%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/akaze.cpp.o
+[ 60%] Built target opencv_plot
+[ 60%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/garray.cpp.o
+[ 60%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.o
+[ 60%] Linking CXX shared library ../../lib/libopencv_fuzzy.so
+[ 61%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gopaque.cpp.o
+[ 61%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o
+[ 61%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/marr_hildreth_hash.cpp.o
+[ 61%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/phash.cpp.o
+[ 62%] Building CXX object modules/img_hash/CMakeFiles/opencv_img_hash.dir/src/radial_variance_hash.cpp.o
+[ 62%] Linking CXX shared library ../../lib/libopencv_quality.so
+[ 62%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o
+[ 62%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.o
+[ 62%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o
+[ 62%] Built target opencv_fuzzy
+[ 62%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o
+[ 62%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gkernel.cpp.o
+[ 62%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gscalar.cpp.o
+[ 62%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gbackend.cpp.o
+[ 62%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o
+[ 62%] Linking CXX shared library ../../lib/libopencv_img_hash.so
+[ 62%] Built target opencv_quality
+[ 62%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gproto.cpp.o
+[ 62%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/brisk.cpp.o
+[ 62%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/draw.cpp.o
+[ 62%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gnode.cpp.o
+[ 62%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.o
+[ 62%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o
+[ 62%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o
+[ 62%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gcall.cpp.o
+[ 62%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.o
+[ 62%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o
+[ 62%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000_openjpeg.cpp.o
+[ 63%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o
+[ 63%] Built target opencv_img_hash
+[ 63%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.cpp.o
+[ 63%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pfm.cpp.o
+[ 63%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o
+[ 63%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/gcomputation.cpp.o
+[ 63%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o
+[ 63%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o
+[ 63%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/operators.cpp.o
+[ 63%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.o
+[ 64%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.o
+[ 64%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_core.cpp.o
+[ 64%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/kernels_imgproc.cpp.o
+[ 64%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o
+[ 64%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/render.cpp.o
+[ 65%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/ginfer.cpp.o
+[ 65%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/render_ocv.cpp.o
+[ 65%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/gftt.cpp.o
+[ 65%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze.cpp.o
+[ 65%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.o
+[ 65%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o
+[ 65%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o
+[ 65%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/api/ft_render.cpp.o
+[ 65%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o
+[ 65%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gmodel.cpp.o
+[ 65%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o
+[ 65%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gmodelbuilder.cpp.o
+[ 65%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gislandmodel.cpp.o
+[ 65%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gcompiler.cpp.o
+[ 65%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.o
+[ 65%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gcompiled.cpp.o
+[ 65%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/gstreaming.cpp.o
+[ 65%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.o
+[ 65%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/helpers.cpp.o
+[ 65%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/dump_dot.cpp.o
+[ 65%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/islands.cpp.o
+[ 65%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.o
+[ 65%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/meta.cpp.o
+[ 66%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/kernels.cpp.o
+[ 66%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/exec.cpp.o
+[ 66%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/transformations.cpp.o
+[ 66%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.o
+[ 66%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/pattern_matching.cpp.o
+[ 66%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/perform_substitution.cpp.o
+[ 66%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/main.cpp.o
+[ 66%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/compiler/passes/streaming.cpp.o
+[ 66%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/mser.cpp.o
+[ 66%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/matchers.cpp.o
+[ 66%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/executor/gexecutor.cpp.o
+[ 66%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/executor/gstreamingexecutor.cpp.o
+[ 66%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/executor/gasync.cpp.o
+[ 66%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/orb.cpp.o
+[ 67%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.o
+[ 67%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/cpu/gcpubackend.cpp.o
+[ 67%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/cpu/gcpukernel.cpp.o
+[ 67%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.avx2.cpp.o
+[ 67%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/cpu/gcpuimgproc.cpp.o
+[ 67%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/cpu/gcpucore.cpp.o
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/fluid/gfluidbuffer.cpp.o
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/fluid/gfluidbackend.cpp.o
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/fluid/gfluidimgproc.cpp.o
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/fluid/gfluidimgproc_func.dispatch.cpp.o
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/fluid/gfluidcore.cpp.o
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ocl/goclkernel.cpp.o
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ocl/goclbackend.cpp.o
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ocl/goclimgproc.cpp.o
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ocl/goclcore.cpp.o
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/ie/giebackend.cpp.o
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/render/grenderocvbackend.cpp.o
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/render/grenderocv.cpp.o
+[ 68%] Linking CXX shared library ../../lib/libopencv_features2d.so
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/common/gcompoundbackend.cpp.o
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/src/backends/common/gcompoundkernel.cpp.o
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/backends/fluid/gfluidimgproc_func.sse4_1.cpp.o
+[ 68%] Building CXX object modules/gapi/CMakeFiles/opencv_gapi.dir/backends/fluid/gfluidimgproc_func.avx2.cpp.o
+[ 68%] Built target opencv_features2d
+Consolidate compiler generated dependencies of target opencv_line_descriptor
+[ 68%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_line_descriptor.dir/src/LSDDetector.cpp.o
+[ 68%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_line_descriptor.dir/src/binary_descriptor_matcher.cpp.o
+[ 68%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_line_descriptor.dir/src/binary_descriptor.cpp.o
+[ 68%] Building CXX object modules/line_descriptor/CMakeFiles/opencv_line_descriptor.dir/src/draw.cpp.o
+[ 68%] Linking CXX shared library ../../lib/libopencv_gapi.so
+Consolidate compiler generated dependencies of target opencv_calib3d
+[ 68%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ap3p.cpp.o
+[ 68%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.cpp.o
+[ 68%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.cpp.o
+[ 68%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration_handeye.cpp.o
+[ 68%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.cpp.o
+[ 68%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/chessboard.cpp.o
+[ 68%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/circlesgrid.cpp.o
+[ 68%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/compat_ptsetreg.cpp.o
+[ 69%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/dls.cpp.o
+[ 69%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/epnp.cpp.o
+[ 69%] Linking CXX shared library ../../lib/libopencv_line_descriptor.so
+[ 69%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fisheye.cpp.o
+[ 69%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/five-point.cpp.o
+[ 69%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.cpp.o
+[ 69%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/homography_decomp.cpp.o
+[ 69%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ippe.cpp.o
+[ 69%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/levmarq.cpp.o
+[ 69%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/main.cpp.o
+[ 69%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/p3p.cpp.o
+[ 70%] Built target opencv_gapi
+[ 70%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/polynom_solver.cpp.o
+[ 70%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.cpp.o
+[ 70%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ptsetreg.cpp.o
+[ 71%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/quadsubpix.cpp.o
+[ 71%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/rho.cpp.o
+[ 71%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/solvepnp.cpp.o
+[ 71%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.cpp.o
+[ 71%] Built target opencv_line_descriptor
+[ 71%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.cpp.o
+[ 71%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.cpp.o
+[ 71%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/undistort.dispatch.cpp.o
+[ 71%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/upnp.cpp.o
+[ 71%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/opencl_kernels_calib3d.cpp.o
+[ 71%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d.dir/undistort.avx2.cpp.o
+[ 71%] Linking CXX shared library ../../lib/libopencv_calib3d.so
+[ 71%] Built target opencv_calib3d
+Consolidate compiler generated dependencies of target opencv_rapid
+Consolidate compiler generated dependencies of target opencv_structured_light
+[ 71%] Building NVCC (Device) object modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_util.cu.o
+Consolidate compiler generated dependencies of target opencv_objdetect
+[ 71%] Building NVCC (Device) object modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_disparity_bilateral_filter.cu.o
+[ 71%] Building CXX object modules/rapid/CMakeFiles/opencv_rapid.dir/src/rapid.cpp.o
+[ 71%] Building NVCC (Device) object modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_stereobp.cu.o
+[ 71%] Building NVCC (Device) object modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_stereobm.cu.o
+Consolidate compiler generated dependencies of target opencv_shape
+[ 71%] Building NVCC (Device) object modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_stereocsbp.cu.o
+[ 71%] Building CXX object modules/structured_light/CMakeFiles/opencv_structured_light.dir/src/graycodepattern.cpp.o
+[ 71%] Building CXX object modules/structured_light/CMakeFiles/opencv_structured_light.dir/src/sinusoidalpattern.cpp.o
+[ 71%] Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o
+Consolidate compiler generated dependencies of target opencv_video
+[ 71%] Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o
+[ 71%] Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o
+[ 71%] Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o
+[ 71%] Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o
+[ 71%] Building CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/aff_trans.cpp.o
+[ 71%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/bgfg_KNN.cpp.o
+[ 71%] Linking CXX shared library ../../lib/libopencv_rapid.so
+[ 71%] Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/qrcode.cpp.o
+[ 72%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/bgfg_gaussmix2.cpp.o
+[ 72%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/dis_flow.cpp.o
+[ 72%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/camshift.cpp.o
+[ 72%] Building CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/emdL1.cpp.o
+[ 72%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/ecc.cpp.o
+[ 72%] Linking CXX shared library ../../lib/libopencv_structured_light.so
+[ 72%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/kalman.cpp.o
+[ 72%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/lkpyramid.cpp.o
+[ 72%] Built target opencv_rapid
+[ 72%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/optflowgf.cpp.o
+[ 72%] Building CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/haus_dis.cpp.o
+[ 72%] Building CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/hist_cost.cpp.o
+[ 72%] Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o
+[ 72%] Building CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/sc_dis.cpp.o
+[ 72%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/optical_flow_io.cpp.o
+[ 72%] Built target opencv_structured_light
+[ 72%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/src/variational_refinement.cpp.o
+[ 72%] Building CXX object modules/shape/CMakeFiles/opencv_shape.dir/src/tps_trans.cpp.o
+[ 72%] Building CXX object modules/video/CMakeFiles/opencv_video.dir/opencl_kernels_video.cpp.o
+[ 72%] Linking CXX shared library ../../lib/libopencv_objdetect.so
+[ 72%] Linking CXX shared library ../../lib/libopencv_video.so
+[ 72%] Linking CXX shared library ../../lib/libopencv_shape.so
+[ 72%] Built target opencv_shape
+[ 72%] Built target opencv_objdetect
+[ 72%] Built target opencv_video
+[ 72%] Building NVCC (Device) object modules/cudabgsegm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_mog2.cu.o
+[ 73%] Building NVCC (Device) object modules/cudabgsegm/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_mog.cu.o
+[ 73%] Linking CXX shared library ../../lib/libopencv_imgcodecs.so
+[ 73%] Built target opencv_imgcodecs
+Consolidate compiler generated dependencies of target opencv_xobjdetect
+[ 73%] Building CXX object modules/xobjdetect/CMakeFiles/opencv_xobjdetect.dir/src/feature_evaluator.cpp.o
+[ 74%] Building CXX object modules/xobjdetect/CMakeFiles/opencv_xobjdetect.dir/src/waldboost.cpp.o
+[ 74%] Building CXX object modules/xobjdetect/CMakeFiles/opencv_xobjdetect.dir/src/lbpfeatures.cpp.o
+[ 74%] Building CXX object modules/xobjdetect/CMakeFiles/opencv_xobjdetect.dir/src/wbdetector.cpp.o
+Consolidate compiler generated dependencies of target opencv_videoio
+[ 75%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/videoio_c.cpp.o
+[ 75%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/videoio_registry.cpp.o
+[ 75%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap.cpp.o
+[ 75%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_images.cpp.o
+[ 75%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_encoder.cpp.o
+Consolidate compiler generated dependencies of target opencv_ximgproc
+[ 75%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/adaptive_manifold_filter_n.cpp.o
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/anisodiff.cpp.o
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/bilateral_texture_filter.cpp.o
+[ 76%] Linking CXX shared library ../../lib/libopencv_xobjdetect.so
+[ 76%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/backend_plugin.cpp.o
+[ 76%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_decoder.cpp.o
+[ 76%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/backend_static.cpp.o
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/deriche_filter.cpp.o
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/brightedges.cpp.o
+[ 76%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/container_avi.cpp.o
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/disparity_filters.cpp.o
+[ 76%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_gstreamer.cpp.o
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/domain_transform.cpp.o
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/dtfilter_cpu.cpp.o
+[ 76%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_v4l.cpp.o
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/edgeaware_filters_common.cpp.o
+[ 76%] Built target opencv_xobjdetect
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/edgeboxes.cpp.o
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/edgepreserving_filter.cpp.o
+[ 76%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_ffmpeg.cpp.o
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/estimated_covariance.cpp.o
+[ 76%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/fast_hough_transform.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/fast_line_detector.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/fbs_filter.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/fgs_filter.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/fourier_descriptors.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/graphsegmentation.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/guided_filter.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/joint_bilateral_filter.cpp.o
+[ 77%] Linking CXX shared library ../../lib/libopencv_videoio.so
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/l0_smooth.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/niblack_thresholding.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/lsc.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/paillou_filter.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/peilin.cpp.o
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/quaternion.cpp.o
+Consolidate compiler generated dependencies of target opencv_hfs
+[ 77%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/rolling_guidance_filter.cpp.o
+[ 78%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/ridgedetectionfilter.cpp.o
+[ 78%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/run_length_morphology.cpp.o
+[ 78%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/seeds.cpp.o
+[ 78%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/selectivesearchsegmentation.cpp.o
+[ 78%] Building CXX object modules/hfs/CMakeFiles/opencv_hfs.dir/src/hfs.cpp.o
+[ 78%] Building CXX object modules/hfs/CMakeFiles/opencv_hfs.dir/src/hfs_core.cpp.o
+[ 78%] Built target opencv_videoio
+[ 78%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/slic.cpp.o
+[ 78%] Building CXX object modules/hfs/CMakeFiles/opencv_hfs.dir/src/merge/merge.cpp.o
+[ 78%] Building CXX object modules/hfs/CMakeFiles/opencv_hfs.dir/src/magnitude/magnitude.cpp.o
+[ 79%] Building CXX object modules/hfs/CMakeFiles/opencv_hfs.dir/src/slic/gslic_engine.cpp.o
+[ 79%] Building CXX object modules/hfs/CMakeFiles/opencv_hfs.dir/src/slic/slic.cpp.o
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/sparse_match_interpolators.cpp.o
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/structured_edge_detection.cpp.o
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/thinning.cpp.o
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/src/weighted_median_filter.cpp.o
+Consolidate compiler generated dependencies of target opencv_highgui
+[ 79%] Building CXX object modules/ximgproc/CMakeFiles/opencv_ximgproc.dir/opencl_kernels_ximgproc.cpp.o
+[ 79%] Building CXX object modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.o
+[ 79%] Building CXX object modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o
+[ 79%] Building CXX object modules/highgui/CMakeFiles/opencv_highgui.dir/src/window_gtk.cpp.o
+[ 79%] Linking CXX shared library ../../lib/libopencv_hfs.so
+[ 79%] Linking CXX shared library ../../lib/libopencv_ximgproc.so
+[ 79%] Built target opencv_hfs
+[ 79%] Linking CXX shared library ../../lib/libopencv_highgui.so
+[ 79%] Built target opencv_ximgproc
+Consolidate compiler generated dependencies of target opencv_optflow
+[ 79%] Building CXX object modules/optflow/CMakeFiles/opencv_optflow.dir/src/deepflow.cpp.o
+[ 79%] Building CXX object modules/optflow/CMakeFiles/opencv_optflow.dir/src/interfaces.cpp.o
+[ 79%] Building CXX object modules/optflow/CMakeFiles/opencv_optflow.dir/src/motempl.cpp.o
+[ 79%] Building CXX object modules/optflow/CMakeFiles/opencv_optflow.dir/src/pcaflow.cpp.o
+[ 79%] Building CXX object modules/optflow/CMakeFiles/opencv_optflow.dir/src/rlof/geo_interpolation.cpp.o
+[ 79%] Building CXX object modules/optflow/CMakeFiles/opencv_optflow.dir/src/rlof/rlof_localflow.cpp.o
+[ 79%] Building CXX object modules/optflow/CMakeFiles/opencv_optflow.dir/src/rlofflow.cpp.o
+[ 79%] Building CXX object modules/optflow/CMakeFiles/opencv_optflow.dir/src/simpleflow.cpp.o
+[ 79%] Building CXX object modules/optflow/CMakeFiles/opencv_optflow.dir/src/sparse_matching_gpc.cpp.o
+[ 79%] Building CXX object modules/optflow/CMakeFiles/opencv_optflow.dir/src/sparsetodenseflow.cpp.o
+[ 79%] Building CXX object modules/optflow/CMakeFiles/opencv_optflow.dir/src/tvl1flow.cpp.o
+[ 79%] Building CXX object modules/optflow/CMakeFiles/opencv_optflow.dir/opencl_kernels_optflow.cpp.o
+[ 79%] Built target opencv_highgui
+Consolidate compiler generated dependencies of target opencv_annotation
+Consolidate compiler generated dependencies of target opencv_waldboost_detector
+[ 79%] Building CXX object apps/annotation/CMakeFiles/opencv_annotation.dir/opencv_annotation.cpp.o
+[ 79%] Building CXX object modules/xobjdetect/tools/waldboost_detector/CMakeFiles/opencv_waldboost_detector.dir/waldboost_detector.cpp.o
+Consolidate compiler generated dependencies of target opencv_visualisation
+[ 79%] Building CXX object apps/visualisation/CMakeFiles/opencv_visualisation.dir/opencv_visualisation.cpp.o
+[ 79%] Linking CXX executable ../../bin/opencv_annotation
+Consolidate compiler generated dependencies of target opencv_interactive-calibration
+[ 79%] Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.o
+[ 79%] Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.o
+[ 79%] Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.o
+[ 79%] Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.o
+[ 79%] Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.o
+[ 79%] Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.o
+[ 79%] Linking CXX executable ../../../../bin/opencv_waldboost_detector
+[ 80%] Linking CXX executable ../../bin/opencv_visualisation
+[ 81%] Linking CXX shared library ../../lib/libopencv_optflow.so
+[ 81%] Built target opencv_waldboost_detector
+[ 81%] Linking CXX executable ../../bin/opencv_interactive-calibration
+[ 82%] Built target opencv_optflow
+[ 82%] Built target opencv_annotation
+[ 82%] Built target opencv_visualisation
+[ 82%] Built target opencv_interactive-calibration
+Consolidate compiler generated dependencies of target opencv_cudabgsegm
+[ 82%] Building CXX object modules/cudabgsegm/CMakeFiles/opencv_cudabgsegm.dir/src/mog.cpp.o
+[ 82%] Building CXX object modules/cudabgsegm/CMakeFiles/opencv_cudabgsegm.dir/src/mog2.cpp.o
+[ 82%] Linking CXX shared library ../../lib/libopencv_cudabgsegm.so
+[ 82%] Built target opencv_cudabgsegm
+Consolidate compiler generated dependencies of target opencv_cudastereo
+[ 82%] Building CXX object modules/cudastereo/CMakeFiles/opencv_cudastereo.dir/src/disparity_bilateral_filter.cpp.o
+[ 82%] Building CXX object modules/cudastereo/CMakeFiles/opencv_cudastereo.dir/src/stereobm.cpp.o
+[ 82%] Building CXX object modules/cudastereo/CMakeFiles/opencv_cudastereo.dir/src/stereobp.cpp.o
+[ 82%] Building CXX object modules/cudastereo/CMakeFiles/opencv_cudastereo.dir/src/stereocsbp.cpp.o
+[ 83%] Building CXX object modules/cudastereo/CMakeFiles/opencv_cudastereo.dir/src/util.cpp.o
+[ 83%] Linking CXX shared library ../../lib/libopencv_cudastereo.so
+[ 83%] Built target opencv_cudastereo
+Consolidate compiler generated dependencies of target opencv_cudaarithm
+[ 83%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_cudaarithm.dir/src/arithm.cpp.o
+[ 83%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_cudaarithm.dir/src/element_operations.cpp.o
+[ 83%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_cudaarithm.dir/src/reductions.cpp.o
+[ 83%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_cudaarithm.dir/src/core.cpp.o
+[ 83%] Building CXX object modules/cudaarithm/CMakeFiles/opencv_cudaarithm.dir/src/lut.cpp.o
+[ 83%] Linking CXX shared library ../../lib/libopencv_cudaarithm.so
+[ 83%] Built target opencv_cudaarithm
+[ 83%] Building NVCC (Device) object modules/xfeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_surf.cu.o
+[ 83%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.8uc4.cu.o
+[ 83%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.16sc1.cu.o
+[ 83%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.16sc3.cu.o
+[ 83%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.16uc1.cu.o
+[ 83%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.16sc4.cu.o
+[ 83%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.16uc3.cu.o
+[ 83%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.16uc4.cu.o
+[ 83%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.32fc1.cu.o
+[ 83%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.32fc3.cu.o
+[ 83%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.32fc4.cu.o
+[ 83%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.32sc1.cu.o
+[ 84%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.32sc4.cu.o
+[ 84%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.32sc3.cu.o
+[ 84%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.8uc1.cu.o
+[ 84%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.8uc3.cu.o
+[ 84%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_column_filter.8uc4.cu.o
+[ 84%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_median_filter.cu.o
+[ 84%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_filter2d.cu.o
+[ 84%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.16sc1.cu.o
+[ 84%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.16sc4.cu.o
+[ 84%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.16sc3.cu.o
+[ 84%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.16uc1.cu.o
+[ 84%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.16uc3.cu.o
+[ 84%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.16uc4.cu.o
+[ 85%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.32fc1.cu.o
+[ 85%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.32fc3.cu.o
+[ 85%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.32sc1.cu.o
+[ 85%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.32sc3.cu.o
+[ 85%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.32fc4.cu.o
+[ 85%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.32sc4.cu.o
+[ 85%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.8uc1.cu.o
+Consolidate compiler generated dependencies of target opencv_xfeatures2d
+[ 85%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/affine_feature2d.cpp.o
+[ 85%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/boostdesc.cpp.o
+[ 85%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/brief.cpp.o
+[ 85%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/daisy.cpp.o
+[ 85%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/ellipticKeyPoint.cpp.o
+[ 85%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/fast.cpp.o
+[ 85%] Building NVCC (Device) object modules/cudafilters/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_row_filter.8uc3.cu.o
+[ 85%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/freak.cpp.o
+[ 86%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/gms.cpp.o
+[ 86%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/harris_lapace_detector.cpp.o
+[ 86%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/latch.cpp.o
+[ 86%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/logos.cpp.o
+[ 86%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/logos/Logos.cpp.o
+[ 86%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/logos/Match.cpp.o
+[ 86%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/logos/PointPair.cpp.o
+[ 86%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/lucid.cpp.o
+[ 86%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/msd.cpp.o
+[ 86%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures.cpp.o
+[ 86%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures/grayscale_bitmap.cpp.o
+[ 86%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures/pct_clusterizer.cpp.o
+[ 87%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures/pct_sampler.cpp.o
+[ 87%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/pct_signatures_sqfd.cpp.o
+[ 87%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/sift.cpp.o
+[ 87%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/stardetector.cpp.o
+[ 87%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/surf.cpp.o
+[ 87%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/surf.cuda.cpp.o
+[ 87%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/surf.ocl.cpp.o
+[ 87%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/vgg.cpp.o
+Consolidate compiler generated dependencies of target opencv_cudawarping
+[ 87%] Building CXX object modules/cudawarping/CMakeFiles/opencv_cudawarping.dir/src/pyramids.cpp.o
+[ 87%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/src/xfeatures2d_init.cpp.o
+[ 87%] Building CXX object modules/cudawarping/CMakeFiles/opencv_cudawarping.dir/src/remap.cpp.o
+[ 87%] Building CXX object modules/xfeatures2d/CMakeFiles/opencv_xfeatures2d.dir/opencl_kernels_xfeatures2d.cpp.o
+[ 87%] Linking CXX shared library ../../lib/libopencv_xfeatures2d.so
+[ 87%] Building CXX object modules/cudawarping/CMakeFiles/opencv_cudawarping.dir/src/resize.cpp.o
+[ 87%] Built target opencv_xfeatures2d
+[ 87%] Building CXX object modules/cudawarping/CMakeFiles/opencv_cudawarping.dir/src/warp.cpp.o
+[ 87%] Linking CXX shared library ../../lib/libopencv_cudawarping.so
+[ 87%] Built target opencv_cudawarping
+Consolidate compiler generated dependencies of target opencv_cudafilters
+[ 87%] Building CXX object modules/cudafilters/CMakeFiles/opencv_cudafilters.dir/src/filtering.cpp.o
+[ 87%] Linking CXX shared library ../../lib/libopencv_cudafilters.so
+[ 87%] Built target opencv_cudafilters
+[ 87%] Building NVCC (Device) object modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_orb.cu.o
+[ 87%] Building NVCC (Device) object modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bf_knnmatch.cu.o
+[ 87%] Building NVCC (Device) object modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_fast.cu.o
+[ 87%] Building NVCC (Device) object modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bf_match.cu.o
+[ 87%] Building NVCC (Device) object modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bf_radius_match.cu.o
+[ 87%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_mean_shift.cu.o
+[ 87%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bilateral_filter.cu.o
+[ 88%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_blend.cu.o
+[ 88%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_build_point_list.cu.o
+[ 88%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_canny.cu.o
+[ 88%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_clahe.cu.o
+[ 88%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_color.cu.o
+[ 88%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_debayer.cu.o
+[ 88%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_corners.cu.o
+[ 88%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_generalized_hough.cu.o
+[ 88%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_gftt.cu.o
+[ 88%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hist.cu.o
+[ 88%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hough_circles.cu.o
+[ 89%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_match_template.cu.o
+[ 89%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hough_segments.cu.o
+[ 89%] Building NVCC (Device) object modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hough_lines.cu.o
+Consolidate compiler generated dependencies of target opencv_cudafeatures2d
+[ 89%] Building CXX object modules/cudafeatures2d/CMakeFiles/opencv_cudafeatures2d.dir/src/brute_force_matcher.cpp.o
+[ 89%] Building CXX object modules/cudafeatures2d/CMakeFiles/opencv_cudafeatures2d.dir/src/fast.cpp.o
+[ 89%] Building CXX object modules/cudafeatures2d/CMakeFiles/opencv_cudafeatures2d.dir/src/orb.cpp.o
+[ 90%] Building CXX object modules/cudafeatures2d/CMakeFiles/opencv_cudafeatures2d.dir/src/feature2d_async.cpp.o
+[ 90%] Linking CXX shared library ../../lib/libopencv_cudafeatures2d.so
+[ 90%] Built target opencv_cudafeatures2d
+Consolidate compiler generated dependencies of target opencv_cudaimgproc
+[ 90%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/bilateral_filter.cpp.o
+[ 90%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/canny.cpp.o
+[ 90%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/corners.cpp.o
+[ 90%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/color.cpp.o
+[ 90%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/blend.cpp.o
+[ 90%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/generalized_hough.cpp.o
+[ 90%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/gftt.cpp.o
+[ 90%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/histogram.cpp.o
+[ 90%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/hough_circles.cpp.o
+[ 90%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/hough_lines.cpp.o
+[ 90%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/hough_segments.cpp.o
+[ 91%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/match_template.cpp.o
+[ 91%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/mean_shift.cpp.o
+[ 91%] Building CXX object modules/cudaimgproc/CMakeFiles/opencv_cudaimgproc.dir/src/mssegmentation.cpp.o
+[ 91%] Linking CXX shared library ../../lib/libopencv_cudaimgproc.so
+[ 91%] Built target opencv_cudaimgproc
+[ 91%] Building NVCC (Device) object modules/photo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_nlm.cu.o
+[ 91%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_needle_map.cu.o
+[ 91%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCVBroxOpticalFlow.cu.o
+[ 91%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCV.cu.o
+[ 91%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCVHaarObjectDetection.cu.o
+[ 91%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCVPyramid.cu.o
+[ 91%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NPP_staging.cu.o
+[ 91%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bm.cu.o
+[ 91%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_calib3d.cu.o
+[ 91%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bm_fast.cu.o
+[ 92%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_gmg.cu.o
+[ 92%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_fgd.cu.o
+[ 92%] Building NVCC (Device) object modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_ccomponetns.cu.o
+Consolidate compiler generated dependencies of target opencv_photo
+[ 92%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o
+[ 92%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o
+[ 92%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o
+[ 92%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o
+[ 92%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o
+[ 92%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o
+[ 92%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o
+[ 93%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o
+[ 93%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o
+[ 93%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o
+[ 93%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o
+[ 93%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o
+[ 93%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o
+[ 93%] Building CXX object modules/photo/CMakeFiles/opencv_photo.dir/opencl_kernels_photo.cpp.o
+[ 93%] Linking CXX shared library ../../lib/libopencv_photo.so
+[ 93%] Built target opencv_photo
+Consolidate compiler generated dependencies of target opencv_xphoto
+[ 93%] Building CXX object modules/xphoto/CMakeFiles/opencv_xphoto.dir/src/bm3d_image_denoising.cpp.o
+[ 93%] Building CXX object modules/xphoto/CMakeFiles/opencv_xphoto.dir/src/dct_image_denoising.cpp.o
+[ 93%] Building CXX object modules/xphoto/CMakeFiles/opencv_xphoto.dir/src/grayworld_white_balance.cpp.o
+[ 93%] Building CXX object modules/xphoto/CMakeFiles/opencv_xphoto.dir/src/inpainting.cpp.o
+[ 93%] Building CXX object modules/xphoto/CMakeFiles/opencv_xphoto.dir/src/learning_based_color_balance.cpp.o
+[ 93%] Building CXX object modules/xphoto/CMakeFiles/opencv_xphoto.dir/src/oilpainting.cpp.o
+[ 93%] Building CXX object modules/xphoto/CMakeFiles/opencv_xphoto.dir/src/simple_color_balance.cpp.o
+[ 93%] Building CXX object modules/xphoto/CMakeFiles/opencv_xphoto.dir/src/tonemap.cpp.o
+[ 94%] Linking CXX shared library ../../lib/libopencv_xphoto.so
+[ 94%] Built target opencv_xphoto
+Consolidate compiler generated dependencies of target opencv_cudalegacy
+[ 94%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/bm.cpp.o
+[ 94%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/NCV.cpp.o
+[ 94%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/bm_fast.cpp.o
+[ 94%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/calib3d.cpp.o
+[ 94%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/fgd.cpp.o
+[ 94%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/graphcuts.cpp.o
+[ 94%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/gmg.cpp.o
+[ 94%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/image_pyramid.cpp.o
+[ 95%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/needle_map.cpp.o
+[ 95%] Building CXX object modules/cudalegacy/CMakeFiles/opencv_cudalegacy.dir/src/interpolate_frames.cpp.o
+[ 95%] Linking CXX shared library ../../lib/libopencv_cudalegacy.so
+[ 95%] Built target opencv_cudalegacy
+[ 95%] Building NVCC (Device) object modules/stitching/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_multiband_blend.cu.o
+[ 95%] Building NVCC (Device) object modules/stitching/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_build_warp_maps.cu.o
+[ 95%] Building NVCC (Device) object modules/cudaobjdetect/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hog.cu.o
+[ 95%] Building NVCC (Device) object modules/cudaobjdetect/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_lbp.cu.o
+[ 95%] Building NVCC (Device) object modules/cudaoptflow/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_farneback.cu.o
+[ 95%] Building NVCC (Device) object modules/cudaoptflow/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_tvl1flow.cu.o
+[ 95%] Building NVCC (Device) object modules/cudaoptflow/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_pyrlk.cu.o
+Consolidate compiler generated dependencies of target opencv_stitching
+[ 95%] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o
+[ 95%] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o
+[ 95%] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.o
+[ 95%] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o
+[ 95%] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o
+[ 95%] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o
+[ 95%] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o
+[ 95%] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o
+[ 95%] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o
+[ 95%] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o
+[ 95%] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.o
+[ 96%] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o
+[ 96%] Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o
+Consolidate compiler generated dependencies of target opencv_cudaobjdetect
+[ 96%] Building CXX object modules/cudaobjdetect/CMakeFiles/opencv_cudaobjdetect.dir/src/cascadeclassifier.cpp.o
+[ 96%] Building CXX object modules/cudaobjdetect/CMakeFiles/opencv_cudaobjdetect.dir/src/hog.cpp.o
+[ 96%] Linking CXX shared library ../../lib/libopencv_stitching.so
+[ 96%] Linking CXX shared library ../../lib/libopencv_cudaobjdetect.so
+[ 97%] Built target opencv_stitching
+[ 97%] Built target opencv_cudaobjdetect
+Consolidate compiler generated dependencies of target opencv_cudaoptflow
+[ 97%] Building CXX object modules/cudaoptflow/CMakeFiles/opencv_cudaoptflow.dir/src/brox.cpp.o
+[ 97%] Building CXX object modules/cudaoptflow/CMakeFiles/opencv_cudaoptflow.dir/src/tvl1flow.cpp.o
+[ 97%] Building CXX object modules/cudaoptflow/CMakeFiles/opencv_cudaoptflow.dir/src/farneback.cpp.o
+[ 97%] Building CXX object modules/cudaoptflow/CMakeFiles/opencv_cudaoptflow.dir/src/nvidiaOpticalFlow.cpp.o
+[ 98%] Building CXX object modules/cudaoptflow/CMakeFiles/opencv_cudaoptflow.dir/src/pyrlk.cpp.o
+[ 98%] Linking CXX shared library ../../lib/libopencv_cudaoptflow.so
+[ 98%] Built target opencv_cudaoptflow
+[ 98%] Building NVCC (Device) object modules/superres/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_btv_l1_gpu.cu.o
+[ 98%] Building NVCC (Device) object modules/videostab/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_global_motion.cu.o
+Consolidate compiler generated dependencies of target opencv_superres
+[ 98%] Building CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/btv_l1.cpp.o
+[ 98%] Building CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/btv_l1_cuda.cpp.o
+[ 98%] Building CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/frame_source.cpp.o
+[ 98%] Building CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/input_array_utility.cpp.o
+[ 98%] Building CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/optical_flow.cpp.o
+[ 99%] Building CXX object modules/superres/CMakeFiles/opencv_superres.dir/opencl_kernels_superres.cpp.o
+[ 99%] Building CXX object modules/superres/CMakeFiles/opencv_superres.dir/src/super_resolution.cpp.o
+[ 99%] Linking CXX shared library ../../lib/libopencv_superres.so
+[ 99%] Built target opencv_superres
+Consolidate compiler generated dependencies of target opencv_videostab
+[100%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/frame_source.cpp.o
+[100%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/deblurring.cpp.o
+[100%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/fast_marching.cpp.o
+[100%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/motion_stabilizing.cpp.o
+[100%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/inpainting.cpp.o
+[100%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/global_motion.cpp.o
+[100%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/log.cpp.o
+[100%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/optical_flow.cpp.o
+[100%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/outlier_rejection.cpp.o
+[100%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/stabilizer.cpp.o
+[100%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab.dir/src/wobble_suppression.cpp.o
+[100%] Linking CXX shared library ../../lib/libopencv_videostab.so
+[100%] Built target opencv_videostab
+[  0%] Built target gen-pkgconfig
+Consolidate compiler generated dependencies of target libtiff
+[  4%] Built target libtiff
+[ 13%] Built target libwebp
+[ 16%] Built target libjasper
+[ 24%] Built target IlmImf
+[ 27%] Built target tbb
+[ 29%] Built target ippiw
+[ 35%] Built target libprotobuf
+[ 35%] Built target quirc
+[ 35%] Built target ittnotify
+[ 37%] Built target ade
+[ 37%] Built target opencv_videoio_plugins
+Consolidate compiler generated dependencies of target opencv_cudev
+[ 38%] Built target opencv_cudev
+Consolidate compiler generated dependencies of target opencv_core
+[ 46%] Built target opencv_core
+Consolidate compiler generated dependencies of target opencv_cudaarithm
+[ 49%] Built target opencv_cudaarithm
+Consolidate compiler generated dependencies of target opencv_flann
+[ 49%] Built target opencv_flann
+Consolidate compiler generated dependencies of target opencv_imgproc
+[ 56%] Built target opencv_imgproc
+Consolidate compiler generated dependencies of target opencv_intensity_transform
+[ 57%] Built target opencv_intensity_transform
+Consolidate compiler generated dependencies of target opencv_ml
+[ 59%] Built target opencv_ml
+Consolidate compiler generated dependencies of target opencv_phase_unwrapping
+[ 59%] Built target opencv_phase_unwrapping
+Consolidate compiler generated dependencies of target opencv_plot
+[ 59%] Built target opencv_plot
+Consolidate compiler generated dependencies of target opencv_quality
+[ 60%] Built target opencv_quality
+Consolidate compiler generated dependencies of target opencv_surface_matching
+[ 60%] Built target opencv_surface_matching
+Consolidate compiler generated dependencies of target opencv_cudafilters
+[ 62%] Built target opencv_cudafilters
+Consolidate compiler generated dependencies of target opencv_cudaimgproc
+[ 65%] Built target opencv_cudaimgproc
+Consolidate compiler generated dependencies of target opencv_cudawarping
+[ 65%] Built target opencv_cudawarping
+Consolidate compiler generated dependencies of target opencv_features2d
+[ 67%] Built target opencv_features2d
+Consolidate compiler generated dependencies of target opencv_fuzzy
+[ 67%] Built target opencv_fuzzy
+Consolidate compiler generated dependencies of target opencv_gapi
+[ 72%] Built target opencv_gapi
+Consolidate compiler generated dependencies of target opencv_hfs
+[ 73%] Built target opencv_hfs
+Consolidate compiler generated dependencies of target opencv_img_hash
+[ 74%] Built target opencv_img_hash
+Consolidate compiler generated dependencies of target opencv_imgcodecs
+[ 75%] Built target opencv_imgcodecs
+Consolidate compiler generated dependencies of target opencv_line_descriptor
+[ 75%] Built target opencv_line_descriptor
+Consolidate compiler generated dependencies of target opencv_photo
+[ 76%] Built target opencv_photo
+Consolidate compiler generated dependencies of target opencv_videoio
+[ 77%] Built target opencv_videoio
+Consolidate compiler generated dependencies of target opencv_xphoto
+[ 78%] Built target opencv_xphoto
+Consolidate compiler generated dependencies of target opencv_calib3d
+[ 80%] Built target opencv_calib3d
+Consolidate compiler generated dependencies of target opencv_cudafeatures2d
+[ 81%] Built target opencv_cudafeatures2d
+Consolidate compiler generated dependencies of target opencv_cudastereo
+[ 82%] Built target opencv_cudastereo
+Consolidate compiler generated dependencies of target opencv_highgui
+[ 82%] Built target opencv_highgui
+Consolidate compiler generated dependencies of target opencv_objdetect
+[ 82%] Built target opencv_objdetect
+Consolidate compiler generated dependencies of target opencv_rapid
+[ 82%] Built target opencv_rapid
+Consolidate compiler generated dependencies of target opencv_shape
+[ 82%] Built target opencv_shape
+Consolidate compiler generated dependencies of target opencv_structured_light
+[ 82%] Built target opencv_structured_light
+Consolidate compiler generated dependencies of target opencv_video
+[ 83%] Built target opencv_video
+Consolidate compiler generated dependencies of target opencv_xfeatures2d
+[ 85%] Built target opencv_xfeatures2d
+Consolidate compiler generated dependencies of target opencv_ximgproc
+[ 88%] Built target opencv_ximgproc
+Consolidate compiler generated dependencies of target opencv_xobjdetect
+[ 89%] Built target opencv_xobjdetect
+Consolidate compiler generated dependencies of target opencv_waldboost_detector
+[ 89%] Built target opencv_waldboost_detector
+Consolidate compiler generated dependencies of target opencv_cudabgsegm
+[ 90%] Built target opencv_cudabgsegm
+Consolidate compiler generated dependencies of target opencv_cudalegacy
+[ 92%] Built target opencv_cudalegacy
+Consolidate compiler generated dependencies of target opencv_cudaobjdetect
+[ 92%] Built target opencv_cudaobjdetect
+Consolidate compiler generated dependencies of target opencv_optflow
+[ 94%] Built target opencv_optflow
+Consolidate compiler generated dependencies of target opencv_stitching
+[ 96%] Built target opencv_stitching
+Consolidate compiler generated dependencies of target opencv_cudaoptflow
+[ 97%] Built target opencv_cudaoptflow
+Consolidate compiler generated dependencies of target opencv_superres
+[ 98%] Built target opencv_superres
+Consolidate compiler generated dependencies of target opencv_videostab
+[ 99%] Built target opencv_videostab
+Consolidate compiler generated dependencies of target opencv_annotation
+[ 99%] Built target opencv_annotation
+Consolidate compiler generated dependencies of target opencv_visualisation
+[100%] Built target opencv_visualisation
+Consolidate compiler generated dependencies of target opencv_interactive-calibration
+[100%] Built target opencv_interactive-calibration
+Consolidate compiler generated dependencies of target opencv_version
+[100%] Built target opencv_version
+Install the project...
+-- Install configuration: "RELEASE"
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/ippicv-readme.htm
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/ippicv-EULA.txt
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/ippiw-support.txt
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/ippiw-third-party-programs.txt
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/ippiw-EULA.txt
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/opencl-headers-LICENSE.txt
+-- Installing: /home/zhangwenting/zzapp/include/opencv4/opencv2/cvconfig.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/opencv_modules.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/pkgconfig/opencv4.pc
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/cmake/opencv4/OpenCVModules.cmake
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/cmake/opencv4/OpenCVModules-release.cmake
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/cmake/opencv4/OpenCVConfig-version.cmake
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/cmake/opencv4/OpenCVConfig.cmake
+-- Up-to-date: /home/zhangwenting/zzapp/bin/setup_vars_opencv4.sh
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/valgrind.supp
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/valgrind_3rdparty.supp
+-- Installing: /home/zhangwenting/zzapp/share/licenses/opencv4/libtiff-COPYRIGHT
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/jasper-LICENSE
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/jasper-README
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/jasper-copyright
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/openexr-LICENSE
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/openexr-AUTHORS.ilmbase
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/openexr-AUTHORS.openexr
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libtbb.so
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/tbb-LICENSE
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/tbb-README
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/protobuf-LICENSE
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/protobuf-README.md
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/quirc-LICENSE
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/ittnotify-LICENSE.BSD
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/ittnotify-LICENSE.GPL
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/opencv.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/ade-LICENSE
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_cudev.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudev.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_cudev.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudev.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/block/block.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/block/detail/reduce.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/block/detail/reduce_key_val.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/block/dynamic_smem.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/block/reduce.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/block/scan.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/block/vec_distance.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/common.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/expr/binary_func.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/expr/binary_op.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/expr/color.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/expr/deriv.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/expr/expr.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/expr/per_element_func.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/expr/reduction.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/expr/unary_func.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/expr/unary_op.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/expr/warping.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/functional/color_cvt.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/functional/detail/color_cvt.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/functional/functional.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/functional/tuple_adapter.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/copy.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/detail/copy.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/detail/histogram.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/detail/integral.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/detail/minmaxloc.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/detail/pyr_down.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/detail/pyr_up.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/detail/reduce.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/detail/reduce_to_column.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/detail/reduce_to_row.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/detail/split_merge.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/detail/transform.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/detail/transpose.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/histogram.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/integral.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/pyramids.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/reduce.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/reduce_to_vec.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/split_merge.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/transform.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/grid/transpose.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/constant.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/deriv.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/detail/gpumat.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/extrapolation.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/glob.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/gpumat.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/interpolation.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/lut.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/mask.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/remap.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/resize.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/texture.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/traits.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/transform.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/warping.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/ptr2d/zip.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/util/atomic.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/util/detail/tuple.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/util/detail/type_traits.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/util/limits.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/util/saturate_cast.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/util/simd_functions.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/util/tuple.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/util/type_traits.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/util/vec_math.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/util/vec_traits.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/warp/detail/reduce.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/warp/detail/reduce_key_val.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/warp/reduce.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/warp/scan.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/warp/shuffle.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/warp/warp.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudev/common.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_core.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_core.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_core.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_core.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/ocl_defs.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/opencl_info.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/opencl_svm.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_clamdblas.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_clamdfft.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_core.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_core_wrappers.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_gl.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/runtime/autogenerated/opencl_gl_wrappers.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_clamdblas.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_clamdfft.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_core.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_core_wrappers.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_gl.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_gl_wrappers.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_svm_20.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_svm_definitions.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opencl/runtime/opencl_svm_hsa_extension.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/block.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/border_interpolate.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/color.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/common.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/datamov_utils.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/dynamic_smem.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/emulation.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/filters.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/funcattrib.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/functional.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/limits.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/reduce.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/saturate_cast.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/scan.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/simd_functions.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/transform.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/type_traits.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/utility.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/vec_distance.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/vec_math.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/vec_traits.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/warp.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/warp_reduce.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/warp_shuffle.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/detail/color_detail.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/detail/reduce.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/detail/reduce_key_val.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/detail/transform_detail.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/detail/type_traits_detail.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda/detail/vec_distance_detail.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/affine.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/async.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/base.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/bindings_utils.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/bufferpool.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/check.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/core.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/core_c.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda.inl.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda_stream_accessor.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cuda_types.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cv_cpu_helper.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cvdef.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cvstd.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cvstd.inl.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/directx.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/eigen.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/fast_math.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/hal/hal.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/hal/interface.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/hal/intrin.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/hal/intrin_avx.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/hal/intrin_avx512.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/hal/intrin_cpp.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/hal/intrin_forward.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/hal/intrin_msa.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/hal/intrin_neon.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/hal/intrin_sse.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/hal/intrin_sse_em.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/hal/intrin_vsx.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/hal/intrin_wasm.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/hal/msa_macros.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/hal/simd_utils.impl.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/mat.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/mat.inl.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/matx.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/neon_utils.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/ocl.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/ocl_genbase.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/opengl.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/operations.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/optim.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/ovx.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/persistence.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/saturate.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/simd_intrinsics.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/softfloat.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/sse_utils.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/traits.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/types.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/types_c.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/utility.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/utils/allocator_stats.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/utils/allocator_stats.impl.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/utils/filesystem.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/utils/instrumentation.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/utils/logger.defines.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/utils/logger.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/utils/logtag.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/utils/tls.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/utils/trace.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/va_intel.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/version.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/vsx_utils.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/detail/async_promise.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/core/detail/exception_ptr.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/share/licenses/opencv4/SoftFloat-COPYING.txt
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_cudaarithm.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudaarithm.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_cudaarithm.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudaarithm.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudaarithm.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_flann.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_flann.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_flann.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_flann.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/all_indices.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/allocator.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/any.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/autotuned_index.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/composite_index.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/config.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/defines.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/dist.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/dummy.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/dynamic_bitset.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/flann.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/flann_base.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/general.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/ground_truth.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/hdf5.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/heap.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/hierarchical_clustering_index.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/index_testing.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/kdtree_index.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/kdtree_single_index.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/kmeans_index.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/linear_index.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/logger.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/lsh_index.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/lsh_table.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/matrix.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/miniflann.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/nn_index.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/object_factory.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/params.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/random.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/result_set.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/sampling.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/saving.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/simplex_downhill.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/flann/timer.h
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_imgproc.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_imgproc.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_imgproc.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_imgproc.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/imgproc.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/imgproc/hal/hal.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/imgproc/hal/interface.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/imgproc/imgproc.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/imgproc/imgproc_c.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/imgproc/types_c.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/imgproc/detail/gcgraph.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_intensity_transform.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_intensity_transform.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_intensity_transform.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_intensity_transform.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/intensity_transform.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_ml.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_ml.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_ml.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_ml.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ml.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ml/ml.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ml/ml.inl.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_phase_unwrapping.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_phase_unwrapping.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_phase_unwrapping.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_phase_unwrapping.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/phase_unwrapping.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/phase_unwrapping/histogramphaseunwrapping.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/phase_unwrapping/phase_unwrapping.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_plot.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_plot.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_plot.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_plot.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/plot.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_quality.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_quality.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_quality.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_quality.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/quality.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/quality/quality_utils.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/quality/qualitybase.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/quality/qualitybrisque.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/quality/qualitygmsd.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/quality/qualitymse.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/quality/qualitypsnr.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/quality/qualityssim.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/quality/brisque_model_live.yml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/quality/brisque_range_live.yml
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_surface_matching.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_surface_matching.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_surface_matching.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_surface_matching.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/surface_matching.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/surface_matching/icp.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/surface_matching/pose_3d.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/surface_matching/ppf_helpers.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/surface_matching/ppf_match_3d.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/surface_matching/t_hash_int.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_cudafilters.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudafilters.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_cudafilters.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudafilters.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudafilters.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_cudaimgproc.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudaimgproc.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_cudaimgproc.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudaimgproc.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudaimgproc.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_cudawarping.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudawarping.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_cudawarping.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudawarping.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudawarping.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_features2d.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_features2d.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_features2d.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_features2d.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/features2d.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/features2d/features2d.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/features2d/hal/interface.h
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_fuzzy.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_fuzzy.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_fuzzy.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_fuzzy.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/fuzzy.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/fuzzy/fuzzy_F0_math.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/fuzzy/fuzzy_F1_math.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/fuzzy/fuzzy_image.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/fuzzy/types.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_gapi.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_gapi.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_gapi.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_gapi.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/core.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/cpu/core.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/cpu/gcpukernel.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/cpu/imgproc.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/fluid/core.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/fluid/gfluidbuffer.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/fluid/gfluidkernel.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/fluid/imgproc.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/garg.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/garray.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gasync_context.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gcall.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gcommon.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gcompiled.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gcompiled_async.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gcompoundkernel.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gcomputation.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gcomputation_async.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gkernel.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gmat.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gmetaarg.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gopaque.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gproto.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gpu/core.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gpu/ggpukernel.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gpu/imgproc.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gscalar.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gstreaming.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gtransform.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gtype_traits.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/gtyped.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/imgproc.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/infer.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/infer/ie.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/ocl/core.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/ocl/goclkernel.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/ocl/imgproc.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/opencv_includes.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/operators.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/own/assert.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/own/convert.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/own/cvdefs.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/own/exports.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/own/mat.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/own/saturate.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/own/scalar.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/own/types.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/plaidml/core.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/plaidml/gplaidmlkernel.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/plaidml/plaidml.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/render.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/render/render.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/streaming/cap.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/streaming/source.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/util/any.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/util/compiler_hints.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/util/optional.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/util/throw.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/util/util.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/gapi/util/variant.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_hfs.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_hfs.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_hfs.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_hfs.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/hfs.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_img_hash.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_img_hash.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_img_hash.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_img_hash.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/img_hash.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/img_hash/average_hash.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/img_hash/block_mean_hash.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/img_hash/color_moment_hash.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/img_hash/img_hash_base.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/img_hash/marr_hildreth_hash.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/img_hash/phash.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/img_hash/radial_variance_hash.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_imgcodecs.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_imgcodecs.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_imgcodecs.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_imgcodecs.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/imgcodecs.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/imgcodecs/imgcodecs.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/imgcodecs/imgcodecs_c.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/imgcodecs/ios.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/imgcodecs/legacy/constants_c.h
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_line_descriptor.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_line_descriptor.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_line_descriptor.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_line_descriptor.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/line_descriptor.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/line_descriptor/descriptor.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_photo.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_photo.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_photo.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_photo.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/photo.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/photo/cuda.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/photo/legacy/constants_c.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/photo/photo.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_videoio.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_videoio.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_videoio.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_videoio.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videoio.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videoio/cap_ios.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videoio/legacy/constants_c.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videoio/registry.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videoio/videoio.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videoio/videoio_c.h
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_xphoto.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_xphoto.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_xphoto.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_xphoto.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/xphoto.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/xphoto/bm3d_image_denoising.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/xphoto/dct_image_denoising.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/xphoto/inpainting.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/xphoto/oilpainting.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/xphoto/tonemap.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/xphoto/white_balance.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_calib3d.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_calib3d.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_calib3d.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_calib3d.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/calib3d.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/calib3d/calib3d.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/calib3d/calib3d_c.h
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_cudafeatures2d.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudafeatures2d.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_cudafeatures2d.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudafeatures2d.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudafeatures2d.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_cudastereo.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudastereo.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_cudastereo.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudastereo.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudastereo.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_highgui.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_highgui.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_highgui.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_highgui.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/highgui.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/highgui/highgui.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/highgui/highgui_c.h
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_objdetect.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_objdetect.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_objdetect.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_objdetect.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/objdetect.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/objdetect/objdetect.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_rapid.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_rapid.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_rapid.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_rapid.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/rapid.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_shape.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_shape.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_shape.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_shape.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/shape.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/shape/emdL1.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/shape/hist_cost.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/shape/shape.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/shape/shape_distance.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/shape/shape_transformer.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_structured_light.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_structured_light.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_structured_light.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_structured_light.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/structured_light.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/structured_light/graycodepattern.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/structured_light/sinusoidalpattern.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/structured_light/structured_light.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_video.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_video.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_video.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_video.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/video.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/video/background_segm.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/video/legacy/constants_c.h
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/video/tracking.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/video/video.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_xfeatures2d.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_xfeatures2d.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_xfeatures2d.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_xfeatures2d.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/xfeatures2d.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/xfeatures2d/cuda.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_ximgproc.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_ximgproc.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_ximgproc.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_ximgproc.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/brightedges.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/color_match.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/deriche_filter.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/disparity_filter.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/edge_filter.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/edgeboxes.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/edgepreserving_filter.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/estimated_covariance.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/fast_hough_transform.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/fast_line_detector.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/fourier_descriptors.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/lsc.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/paillou_filter.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/peilin.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/ridgefilter.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/run_length_morphology.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/seeds.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/segmentation.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/slic.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/sparse_match_interpolator.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/structured_edge_detection.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/ximgproc/weighted_median_filter.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_xobjdetect.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_xobjdetect.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_xobjdetect.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_xobjdetect.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/xobjdetect.hpp
+-- Installing: /home/zhangwenting/zzapp/bin/opencv_waldboost_detector
+-- Set runtime path of "/home/zhangwenting/zzapp/bin/opencv_waldboost_detector" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_cudabgsegm.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudabgsegm.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_cudabgsegm.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudabgsegm.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudabgsegm.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_cudalegacy.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudalegacy.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_cudalegacy.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudalegacy.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudalegacy.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudalegacy/NCV.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudalegacy/NCVBroxOpticalFlow.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudalegacy/NCVHaarObjectDetection.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudalegacy/NCVPyramid.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudalegacy/NPP_staging.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_cudaobjdetect.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudaobjdetect.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_cudaobjdetect.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudaobjdetect.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudaobjdetect.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_optflow.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_optflow.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_optflow.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_optflow.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/optflow.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/optflow/motempl.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/optflow/pcaflow.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/optflow/rlofflow.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/optflow/sparse_matching_gpc.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_stitching.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_stitching.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_stitching.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_stitching.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/stitching.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/stitching/warpers.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/stitching/detail/autocalib.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/stitching/detail/blenders.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/stitching/detail/camera.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/stitching/detail/matchers.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/stitching/detail/seam_finders.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/stitching/detail/timelapsers.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/stitching/detail/util.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/stitching/detail/util_inl.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/stitching/detail/warpers.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_cudaoptflow.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudaoptflow.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_cudaoptflow.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_cudaoptflow.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/cudaoptflow.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_superres.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_superres.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_superres.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_superres.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/superres.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/superres/optical_flow.hpp
+-- Installing: /home/zhangwenting/zzapp/lib64/libopencv_videostab.so.4.3.0
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_videostab.so.4.3
+-- Set runtime path of "/home/zhangwenting/zzapp/lib64/libopencv_videostab.so.4.3.0" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Up-to-date: /home/zhangwenting/zzapp/lib64/libopencv_videostab.so
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videostab.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videostab/deblurring.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videostab/fast_marching.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videostab/fast_marching_inl.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videostab/frame_source.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videostab/global_motion.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videostab/inpainting.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videostab/log.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videostab/motion_core.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videostab/motion_stabilizing.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videostab/optical_flow.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videostab/outlier_rejection.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videostab/ring_buffer.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videostab/stabilizer.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/include/opencv4/opencv2/videostab/wobble_suppression.hpp
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_eye.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_eye_tree_eyeglasses.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_frontalcatface.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_frontalcatface_extended.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_frontalface_alt.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_frontalface_alt2.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_frontalface_alt_tree.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_frontalface_default.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_fullbody.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_lefteye_2splits.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_licence_plate_rus_16stages.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_lowerbody.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_profileface.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_righteye_2splits.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_russian_plate_number.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_smile.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/haarcascades/haarcascade_upperbody.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/lbpcascades/lbpcascade_frontalcatface.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/lbpcascades/lbpcascade_frontalface.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/lbpcascades/lbpcascade_frontalface_improved.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/lbpcascades/lbpcascade_profileface.xml
+-- Up-to-date: /home/zhangwenting/zzapp/share/opencv4/lbpcascades/lbpcascade_silverware.xml
+-- Installing: /home/zhangwenting/zzapp/bin/opencv_annotation
+-- Set runtime path of "/home/zhangwenting/zzapp/bin/opencv_annotation" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Installing: /home/zhangwenting/zzapp/bin/opencv_visualisation
+-- Set runtime path of "/home/zhangwenting/zzapp/bin/opencv_visualisation" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Installing: /home/zhangwenting/zzapp/bin/opencv_interactive-calibration
+-- Set runtime path of "/home/zhangwenting/zzapp/bin/opencv_interactive-calibration" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+-- Installing: /home/zhangwenting/zzapp/bin/opencv_version
+-- Set runtime path of "/home/zhangwenting/zzapp/bin/opencv_version" to "/home/zhangwenting/zzapp/lib64:/usr/local/cuda/lib64"
+opencv installed on /home/zhangwenting/zzapp
+add following line to .zshrc
+export OpenCV_DIR=/home/zhangwenting/zzapp
