@@ -82,7 +82,7 @@ source $ZSH/oh-my-zsh.sh
 ## pkg_config path
 export LD_LIBRARY_PATH=/usr/lib:/usr/lib/x86_64-redhat-linux6E/lib64:$LD_LIBRARY_PATH
 ## pkg_config path
-export PKG_CONFIG_PATH="/usr/lib64/pkgconfig:/usr/share/pkgconfig"
+export PKG_CONFIG_PATH=/usr/lib64/pkgconfig:/usr/share/pkgconfig:$PKG_CONFIG_PATH
 
 ## CUDA ##
 export PATH=/usr/local/cuda/bin:$PATH
@@ -91,41 +91,40 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 ## CUDNN ##
 export LD_LIBRARY_PATH=/home/share/cudnn-8.0-v5.1/lib64:$LD_LIBRARY_PATH
 
-###################! app !###################
-## ffmpeg 4.3 ##
-# export PATH=/home/zhangwenting/app/ffmpeg-4.3.1-amd64-static:$PATH
+###################! software !###################
+###################!   BIN    !###################
+## ffmpeg-4.3 
+## protoc-2.5 
+## advance cp mv
+## cmake-3.20.1
+## patch-2.7.1
 
+export PATH=/home/zhangwenting/local/bin:$PATH
+###################!   LIB    !###################
+## libprotobuf-2.5
+export LD_LIBRARY_PATH=/home/zhangwenting/local/lib:$PATH
 ## TensorRT ##
-# export LD_LIBRARY_PATH=/home/zhangwenting/app/TensorRT-7.2.1.6/lib:$LD_LIBRARY_PATH
-
-## patch 2.7.1 ##
-# export PATH=/home/zhangwenting/app/Patch-2.7.1/bin:$PATH
-
-## Advance cp mv ##
-export PATH=/home/zhangwenting/app/advcpmv/bin:$PATH
-
-## atlas 3.10.1 (for caffe) ##
-# export LD_LIBRARY_PATH=/home/zhangwenting/app/atlas-3.10.1/lib64:$LD_LIBRARY_PATH
-
-# ## openblas 0.3.3 (for caffe) ##
-# export LD_LIBRARY_PATH=/home/zhangwenting/app/OpenBLAS-0.3.3/lib64:$LD_LIBRARY_PATH
-
-## protoc-3.15.8 (for caffe) ##
-# export PATH=/home/zhangwenting/app/protoc-3.15.8-linux-x86_64/bin:$PATH
-
-## cmake-3.20.1-linux-x86_64 ##
-export PATH=/home/zhangwenting/app/cmake-3.20.1-linux-x86_64/bin:$PATH
-
+# export LD_LIBRARY_PATH=/home/zhangwenting/software/TensorRT-7.2.1.6/lib:$LD_LIBRARY_PATH
 ## libunwind-1.1 (for caffe)
-# export LD_LIBRARY_PATH=/home/zhangwenting/app/libunwind-devel-1.1/lib:$LD_LIBRARY_PATH
+# export LD_LIBRARY_PATH=/home/zhangwenting/software/libunwind-devel-1.1/lib:$LD_LIBRARY_PATH
 
 ###################! zzapps !###################
 export ZZROOT="/home/zhangwenting/zzapp"
+###################!   BIN    !###################
+## gcc-9.1
+## ccache-
+## opencv-4.3
 export PATH=$ZZROOT/bin:$PATH
+
+###################!   LIB    !###################
+## lib64/cmake
+## lib64/pkgconfig
+
 export LD_LIBRARY_PATH=$ZZROOT/lib:$ZZROOT/lib64:$LD_LIBRARY_PATH
+
+###################!OTHER VARS!###################
 ## ccache ##
 export CCACHE_DIR=~/.ccache
-
 ## opencv 4.3 ##
 export OpenCV_DIR=$ZZROOT
 export PKG_CONFIG_PATH=$ZZROOT/lib64/pkgconfig:$PKG_CONFIG_PATH
@@ -134,7 +133,6 @@ export PKG_CONFIG_PATH=$ZZROOT/lib64/pkgconfig:$PKG_CONFIG_PATH
 # export BOOST_ROOT=$ZZROOT
 # 使用 boost 编译的动态链接库
 # export LD_LIBRARY_PATH=/home/zhangwenting/zzapp/src/boost/stage/lib:$LD_LIBRARY_PATH
-
 
 ## >>> conda initialize >>> ##
 # !! Contents within this block are managed by 'conda init' !!
@@ -151,7 +149,7 @@ fi
 unset __conda_setup
 ## <<< conda initialize <<< ##
 
-export PYTHONPATH=/home/zhangwenting/app/caffe/python:$PYTHONPATH
+export PYTHONPATH=/home/zhangwenting/software/caffe/python:$PYTHONPATH
 
 ################### ! annaconda     yyds ! ###################
 ################### ! conda环境优先级最高 ! ###################
@@ -168,7 +166,7 @@ export PYTHONPATH=/home/zhangwenting/app/caffe/python:$PYTHONPATH
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
-# You may need to manually set your language environment
+#! You may need to manually set your language environment
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 # Preferred editor for local and remote sessions
@@ -181,7 +179,7 @@ export LC_ALL=en_US.UTF-8
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
+#! Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
@@ -213,22 +211,21 @@ alias ..3="cd ../../.."
 alias ..4="cd ../../../.."
 alias ..5="cd ../../../../.."
 alias ns="nvidia-smi"
-alias gpu="watch --color -n1 gpustat -cpu"
 alias vs="tmux split-window" # vertical split
 alias hs="tmux split-window -h" # horizontal split
 alias gpusearch="fuser -v /dev/nvidia*" # search PID on your GPU
 alias gpuwatch="watch --color -n1 gpustat -cpu" # show gpustat every 1 sec
-alias cmake=/home/zhangwenting/app/cmake-3.20.1-linux-x86_64/bin/cmake
+alias cmake=/home/zhangwenting/local/bin/cmake
 alias cmake2=/usr/bin/cmake 
 
-## 安装trash-cli
+##! 安装trash-cli
 ## trash-cli 常用功能
 ## trash-put 将文件或目录移入回收站
 ## trash-empty 清空回收站
 ## trash-list 列出回收站中的文件
 ## trash-restore 还原回收站中的文件
 ## trash-rm 删除回首站中的单个文件
-# 禁用rm很重要！
+#! 禁用rm很重要！
 alias rm='echo "This is not the command you are looking for."; false'
 alias rrm='trash-put'
 alias rmclean='trash-empty'
